@@ -1,0 +1,5 @@
+Invoked on Mon Dec 11 17:46:16 IST 2017 with arguments: -loadClassifier /home/manju/Git-bitbucket/manju_anu/anusaaraka/Parsers/stanford-parser/stanford-ner-2016-10-31/classifiers/english.all.3class.distsim.crf.ser.gz -textFile /home/manju/GIT/tmp_anu_dir/tmp/p_tmp/p
+loadClassifier=/home/manju/Git-bitbucket/manju_anu/anusaaraka/Parsers/stanford-parser/stanford-ner-2016-10-31/classifiers/english.all.3class.distsim.crf.ser.gz
+textFile=/home/manju/GIT/tmp_anu_dir/tmp/p_tmp/p
+Loading classifier from /home/manju/Git-bitbucket/manju_anu/anusaaraka/Parsers/stanford-parser/stanford-ner-2016-10-31/classifiers/english.all.3class.distsim.crf.ser.gz ... done [2.2 sec].
+CRFClassifier tagged 5650 words in 345 documents at 4720.13 words per second.

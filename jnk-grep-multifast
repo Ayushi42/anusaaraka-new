@@ -1,0 +1,428 @@
+Anu_clp_files/parser_id_mapping.clp: (multifast_id-wordid    ?mid  ?wid)
+Binary file Anu_clp_files/parser_id_mapping.bclp matches
+Anu_data/canonical_form_dictionary/Readme:	multi dictionary  :  multifast-v1.4.2/src/run.sh
+bin/Anusaaraka_stanford.sh:  $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised $MYPATH/tmp/$1_tmp/multiword_id_mapping.txt > $MYPATH/tmp/$1_tmp/multi_word_expressions.txt
+bin/Anusaaraka_stanford.sh:  $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression_for_proper_nouns $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/proper_noun_dic.txt
+bin/Anusaaraka_stanford.sh:  $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression_for_prov $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/provisional_multi_dic.txt
+bin/Anusaaraka_stanford.sh:     cd $HOME_anu_test/multifast-v1.4.2/src
+bin/Anusaaraka_stanford.sh:     $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression_for_domain $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/domain_multi_word_expressions.txt
+bin/Anusaaraka_site.sh:  $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/multi_word_expressions.txt
+bin/Anusaaraka_site.sh:  $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression_for_proper_nouns $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/proper_noun_dic.txt
+bin/Anusaaraka_site.sh:  $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression_for_prov $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/provisional_multi_dic.txt
+bin/Anusaaraka_site.sh:     cd $HOME_anu_test/multifast-v1.4.2/src
+bin/Anusaaraka_site.sh:     $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression_for_domain $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/domain_multi_word_expressions.txt
+bin/Anusaaraka_stanford_align_man_ord.sh:  $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/multi_word_expressions.txt
+bin/Anusaaraka_stanford_align_man_ord.sh:  $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression_for_proper_nouns $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/proper_noun_dic.txt
+bin/Anusaaraka_stanford_align_man_ord.sh:  $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression_for_prov $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/provisional_multi_dic.txt
+bin/Anusaaraka_stanford_align_man_ord.sh:     cd $HOME_anu_test/multifast-v1.4.2/src
+bin/Anusaaraka_stanford_align_man_ord.sh:     $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression_for_domain $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/domain_multi_word_expressions.txt
+bin/Anusaaraka_alignment.sh:	cd $HOME_anu_test/multifast-v1.4.2/src/phrasal_mwe	
+bin/Anusaaraka_alignment.sh:	./extract_key_using_multifast $MYPATH/eng_tok_org $MYPATH/map.txt > $MYPATH/key.txt
+bin/Anusaaraka_alignment.sh:	./extract_key_using_multifast-hi-en $MYPATH/eng_tok_org $MYPATH/map-hi-en.txt > $MYPATH/key-hi-en.txt 
+bin/Anusaaraka_alignment.sh:	cd $HOME_anu_test/multifast-v1.4.2/src/phrasal_mwe	
+bin/Anusaaraka_alignment.sh:	./extract_key_using_multifast $MYPATH/eng_tok_org $MYPATH/map.txt > $MYPATH/key.txt
+bin/Anusaaraka_alignment.sh:	./extract_key_using_multifast-hi-en $MYPATH/eng_tok_org $MYPATH/map-hi-en.txt > $MYPATH/key-hi-en.txt 
+bin/Anusaaraka_alignment.sh: cd $HOME_anu_test/multifast-v1.4.2/src/phrasal_mwe
+bin/Anusaaraka_berkeley.sh:  $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/multi_word_expressions.txt
+bin/Anusaaraka_berkeley.sh:  $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression_for_proper_nouns $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/proper_noun_dic.txt
+bin/Anusaaraka_berkeley.sh:  $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression_for_prov $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/provisional_multi_dic.txt
+bin/Anusaaraka_berkeley.sh:     cd $HOME_anu_test/multifast-v1.4.2/src
+bin/Anusaaraka_berkeley.sh:     $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression_for_domain $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/domain_multi_word_expressions.txt
+bin/Anusaaraka_ace.sh:  $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/multi_word_expressions.txt
+bin/Anusaaraka_ace.sh:  $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression_for_proper_nouns $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/proper_noun_dic.txt
+bin/Anusaaraka_ace.sh:  $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression_for_prov $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/provisional_multi_dic.txt
+bin/Anusaaraka_ace.sh:     cd $HOME_anu_test/multifast-v1.4.2/src
+bin/Anusaaraka_ace.sh:     $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression_for_domain $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/domain_multi_word_expressions.txt
+bin/Anusaaraka_logon.sh:  $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/multi_word_expressions.txt
+bin/Anusaaraka_logon.sh:  $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression_for_proper_nouns $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/proper_noun_dic.txt
+bin/Anusaaraka_logon.sh:  $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression_for_prov $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/provisional_multi_dic.txt
+bin/Anusaaraka_logon.sh:     cd $HOME_anu_test/multifast-v1.4.2/src
+bin/Anusaaraka_logon.sh:     $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression_for_domain $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/domain_multi_word_expressions.txt
+bin/Anusaaraka.sh:  $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/multi_word_expressions.txt
+bin/Anusaaraka.sh:  $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression_for_proper_nouns $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/proper_noun_dic.txt
+bin/Anusaaraka.sh:  $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression_for_prov $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/provisional_multi_dic.txt
+bin/Anusaaraka.sh:     cd $HOME_anu_test/multifast-v1.4.2/src
+bin/Anusaaraka.sh:     $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression_for_domain $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/domain_multi_word_expressions.txt
+bin/Anusaaraka_link.sh:  $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/multi_word_expressions.txt
+bin/Anusaaraka_link.sh:  $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression_for_proper_nouns $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/proper_noun_dic.txt
+bin/Anusaaraka_link.sh:  $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression_for_prov $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/provisional_multi_dic.txt
+bin/Anusaaraka_link.sh:     cd $HOME_anu_test/multifast-v1.4.2/src
+bin/Anusaaraka_link.sh:     $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression_for_domain $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/domain_multi_word_expressions.txt
+bin/Anusaaraka_stanford-Factored.sh:  $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/multi_word_expressions.txt
+bin/Anusaaraka_stanford-Factored.sh:  $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression_for_proper_nouns $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/proper_noun_dic.txt
+bin/Anusaaraka_stanford-Factored.sh:  $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression_for_prov $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/provisional_multi_dic.txt
+bin/Anusaaraka_stanford-Factored.sh:     cd $HOME_anu_test/multifast-v1.4.2/src
+bin/Anusaaraka_stanford-Factored.sh:     $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression_for_domain $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/domain_multi_word_expressions.txt
+bin/Anusaaraka_stanford_telugu.sh:  $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised $MYPATH/tmp/$1_tmp/multiword_id_mapping.txt > $MYPATH/tmp/$1_tmp/multi_word_expressions.txt
+bin/Anusaaraka_stanford_telugu.sh:  $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression_for_proper_nouns $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/proper_noun_dic.txt
+bin/Anusaaraka_stanford_telugu.sh:  $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression_for_prov $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/provisional_multi_dic.txt
+bin/Anusaaraka_stanford_telugu.sh:     cd $HOME_anu_test/multifast-v1.4.2/src
+bin/Anusaaraka_stanford_telugu.sh:     $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression_for_domain $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/domain_multi_word_expressions.txt
+bin/Anusaaraka_bllip_parser_minion.sh:  $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/multi_word_expressions.txt
+bin/Anusaaraka_bllip_parser_minion.sh:  $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression_for_proper_nouns $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/proper_noun_dic.txt
+bin/Anusaaraka_bllip_parser_minion.sh:  $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression_for_prov $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/provisional_multi_dic.txt
+bin/Anusaaraka_bllip_parser_minion.sh:     cd $HOME_anu_test/multifast-v1.4.2/src
+bin/Anusaaraka_bllip_parser_minion.sh:     $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression_for_domain $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/domain_multi_word_expressions.txt
+bin/Anusaaraka_rasp.sh:  $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/multi_word_expressions.txt
+bin/Anusaaraka_rasp.sh:  $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression_for_proper_nouns $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/proper_noun_dic.txt
+bin/Anusaaraka_rasp.sh:  $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression_for_prov $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/provisional_multi_dic.txt
+bin/Anusaaraka_rasp.sh:     cd $HOME_anu_test/multifast-v1.4.2/src
+bin/Anusaaraka_rasp.sh:     $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression_for_domain $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/domain_multi_word_expressions.txt
+bin/Anusaaraka_all.sh:  $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/multi_word_expressions.txt
+bin/Anusaaraka_all.sh:  $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression_for_proper_nouns $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/proper_noun_dic.txt
+bin/Anusaaraka_all.sh:  $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression_for_prov $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/provisional_multi_dic.txt
+bin/Anusaaraka_all.sh:     cd $HOME_anu_test/multifast-v1.4.2/src
+bin/Anusaaraka_all.sh:     $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression_for_domain $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/domain_multi_word_expressions.txt
+bin/Anusaaraka_stanford_minion.sh:  $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/multi_word_expressions.txt
+bin/Anusaaraka_stanford_minion.sh:  $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression_for_proper_nouns $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/proper_noun_dic.txt
+bin/Anusaaraka_stanford_minion.sh:  $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression_for_prov $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/provisional_multi_dic.txt
+bin/Anusaaraka_stanford_minion.sh:     cd $HOME_anu_test/multifast-v1.4.2/src
+bin/Anusaaraka_stanford_minion.sh:     $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression_for_domain $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/domain_multi_word_expressions.txt
+bin/Anusaaraka_ol.sh:  $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/multi_word_expressions.txt
+bin/Anusaaraka_ol.sh:  $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression_for_proper_nouns $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/proper_noun_dic.txt
+bin/Anusaaraka_ol.sh:  $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression_for_prov $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/provisional_multi_dic.txt
+bin/Anusaaraka_ol.sh:     cd $HOME_anu_test/multifast-v1.4.2/src
+bin/Anusaaraka_ol.sh:     $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression_for_domain $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/domain_multi_word_expressions.txt
+bin/Anusaaraka_bllip_parser.sh:  $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/multi_word_expressions.txt
+bin/Anusaaraka_bllip_parser.sh:  $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression_for_proper_nouns $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/proper_noun_dic.txt
+bin/Anusaaraka_bllip_parser.sh:  $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression_for_prov $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/provisional_multi_dic.txt
+bin/Anusaaraka_bllip_parser.sh:     cd $HOME_anu_test/multifast-v1.4.2/src
+bin/Anusaaraka_bllip_parser.sh:     $HOME_anu_test/multifast-v1.4.2/src/multi_word_expression_for_domain $MYPATH/tmp/$1_tmp/one_sentence_per_line.txt_tokenised > $MYPATH/tmp/$1_tmp/domain_multi_word_expressions.txt
+compile-op:Compiling Multifast programmes...
+k:Compiling Multifast programmes...
+Log:	multifast-v1.4.2/src/run.sh --> added proper_noun dic's
+Log:	multifast-v1.4.2/src/get_word_count.c
+Log:	multifast-v1.4.2/src/get_word_count_single.c
+Log:        list-right                              multifast-v1.4.2/src/run.sh
+Log:	extract_key_using_multifast.c
+Log:	extract_key_using_multifast-hi-en-hi.c
+Log:	extract_key_using_multifast-hi-en.c
+Log:	multifast-v1.0.0/src/run.sh	(Modified 'physics-dic.c' to 'physics_multi_dic.c')
+Log: 32. Removed following files in multifast-v1.0.0/src/ folder:
+Log:	multifast-v1.0.0 to multifast-v1.4.2 
+Log: 36. Updated multifast new version in following programs:
+Log:	multifast-v1.0.0/src/extract_key_in_hindi_phrase.c
+Log:	multifast-v1.0.0/src/get_word_count_single.c
+Log: 						multifast-v1.0.0/src/run.sh		map-wrd-to-wrd.py
+Log: 	multifast-v1.0.0/src/extract_key.c	compile.sh				mapping.py
+Log:    	multifast-v1.0.0/src/Makefile
+Log:	multi_word_expression_for_prov.c in multifast-v1.0.0/src
+Log:	multifast-v1.0.0/src/Makefile	-> To add compilation of multi_word_expression_for_prov.c programe
+Log:	multifast-v1.0.0/src/multi_word_expression.c	-> Modified priority from '5' to '2'
+Log:	multifast-v1.0.0/src/run.sh			-> To create 'provisional_multi_dic.c'
+Log: 43. In multifast-v1.0.0/src/ directory Added following files:
+Log:	extract_key_using_multifast.c
+Log:	extract_key_using_multifast-hi-en.c
+Log:        extract_key_using_multifast-hi-en-hi.c
+Log:44. Added multifast-v1.0.0 directory to get multi word expression in a sentence.
+Log:47. Added code to compile multifast programmes in anu_compile.sh
+Log:48. Added code to remove outfiles of multifast programmes in remove_out-files.sh
+Log:49. Added code to run multifast programmes to get multi word expression in:
+miscellaneous/SMT/phrasal_alignment/get_mul_pat.sh:$HOME_anu_test/multifast-v1.4.2/src/get_word_count_single.out  tmp > tmp1
+miscellaneous/SMT/phrasal_alignment/run_alignment.sh:sh get_mul_pat.sh  $1/match-value.dat  $HOME_anu_test/multifast-v1.4.2/src/phrasal_mwe/extract_hindi_key.c 2>> $1/phrasal_error
+miscellaneous/SMT/phrasal_alignment/run_alignment.sh:cd $HOME_anu_test/multifast-v1.4.2/src/phrasal_mwe
+miscellaneous/SMT/phrasal_alignment/get_phrasal_dic-hi-en-en.sh:Multifast_path=$HOME_anu_test/multifast-v1.4.2/src/phrasal_mwe
+miscellaneous/SMT/phrasal_alignment/get_phrasal_dic-hi-en-en.sh:### Creating Multifast format dictionary::
+miscellaneous/SMT/phrasal_alignment/get_phrasal_dic-hi-en-en.sh:cd $Multifast_path
+miscellaneous/SMT/phrasal_alignment/get_phrasal_dic-hi-en-en.sh:$HOME_anu_test/multifast-v1.4.2/src/get_word_count_single.out  tmp > tmp1
+miscellaneous/SMT/phrasal_alignment/map-ids.py:#I/p2: map.txt       (o/p of extract_key_using_multifast) 
+miscellaneous/SMT/phrasal_alignment/compile.sh:cd $HOME_anu_test/multifast-v1.4.2/src/phrasal_mwe
+miscellaneous/SMT/phrasal_alignment/run_alignment-hi-en-hi.sh:$HOME_anu_test/multifast-v1.0.0/src/extract_key_using_multifast-hi-en-hi $1 $MYPATH/tmp/$3_tmp/map-hi-en-hi.txt > $MYPATH/tmp/$3_tmp/key-hi-en-hi.txt 
+miscellaneous/SMT/phrasal_alignment/run_alignment-hi-en.sh:sh get_mul_pat.sh  $1/match-value-hi-en.dat  $HOME_anu_test/multifast-v1.4.2/src/phrasal_mwe/extract_hindi_key.c 2>> $1/phrasal_error
+miscellaneous/SMT/phrasal_alignment/run_alignment-hi-en.sh:cd $HOME_anu_test/multifast-v1.4.2/src/phrasal_mwe
+miscellaneous/SMT/phrasal_alignment/get_phrasal_dic-en-hi.sh:Multifast_path=$HOME_anu_test/multifast-v1.4.2/src/phrasal_mwe
+miscellaneous/SMT/phrasal_alignment/get_phrasal_dic-en-hi.sh:### Creating Multifast format dictionary::
+miscellaneous/SMT/phrasal_alignment/get_phrasal_dic-en-hi.sh:cd $Multifast_path
+miscellaneous/SMT/phrasal_alignment/get_phrasal_dic-en-hi.sh:$HOME_anu_test/multifast-v1.4.2/src/get_word_count_single.out  tmp > tmp1
+miscellaneous/SMT/MINION/alignment/dic_compile.sh:cd  $HOME_anu_test/multifast-v1.4.2/src
+miscellaneous/SMT/MINION/alignment/dic_compile.sh:cd  $HOME_anu_test/multifast-v1.4.2/src
+multifast-v1.4.2/examples/example1/example1.c: * This file is part of multifast.
+multifast-v1.4.2/examples/example1/example1.c:    multifast is free software: you can redistribute it and/or modify
+multifast-v1.4.2/examples/example1/example1.c:    multifast is distributed in the hope that it will be useful,
+multifast-v1.4.2/examples/example1/example1.c:    along with multifast.  If not, see <http://www.gnu.org/licenses/>.
+multifast-v1.4.2/examples/example1/example1.c:AC_ALPHABET_t *chunk1 = "experience the ease and simplicity of multifast";
+Binary file multifast-v1.4.2/examples/example0/example0 matches
+Binary file multifast-v1.4.2/examples/example0/example0.o matches
+multifast-v1.4.2/examples/example0/example0.c: * This file is part of multifast.
+multifast-v1.4.2/examples/example0/example0.c:    multifast is free software: you can redistribute it and/or modify
+multifast-v1.4.2/examples/example0/example0.c:    multifast is distributed in the hope that it will be useful,
+multifast-v1.4.2/examples/example0/example0.c:    along with multifast.  If not, see <http://www.gnu.org/licenses/>.
+multifast-v1.4.2/examples/example0/example0.c:AC_ALPHABET_t *chunk1 = "experience the ease and simplicity of multifast";
+multifast-v1.4.2/examples/example4/example4.c: * This file is part of multifast.
+multifast-v1.4.2/examples/example4/example4.c:    multifast is free software: you can redistribute it and/or modify
+multifast-v1.4.2/examples/example4/example4.c:    multifast is distributed in the hope that it will be useful,
+multifast-v1.4.2/examples/example4/example4.c:    along with multifast.  If not, see <http://www.gnu.org/licenses/>.
+multifast-v1.4.2/examples/example3/example3.cpp: * This file is part of multifast.
+multifast-v1.4.2/examples/example3/example3.cpp:    multifast is free software: you can redistribute it and/or modify
+multifast-v1.4.2/examples/example3/example3.cpp:    multifast is distributed in the hope that it will be useful,
+multifast-v1.4.2/examples/example3/example3.cpp:    along with multifast.  If not, see <http://www.gnu.org/licenses/>.
+multifast-v1.4.2/examples/example3/example3.cpp:std::string chunk1 = "experience the ease and simplicity of multifast";
+multifast-v1.4.2/examples/example3/AhoCorasickPlus.h: * This file is part of multifast.
+multifast-v1.4.2/examples/example3/AhoCorasickPlus.h:    multifast is free software: you can redistribute it and/or modify
+multifast-v1.4.2/examples/example3/AhoCorasickPlus.h:    multifast is distributed in the hope that it will be useful,
+multifast-v1.4.2/examples/example3/AhoCorasickPlus.h:    along with multifast.  If not, see <http://www.gnu.org/licenses/>.
+multifast-v1.4.2/examples/example3/AhoCorasickPlus.cpp: * This file is part of multifast.
+multifast-v1.4.2/examples/example3/AhoCorasickPlus.cpp:    multifast is free software: you can redistribute it and/or modify
+multifast-v1.4.2/examples/example3/AhoCorasickPlus.cpp:    multifast is distributed in the hope that it will be useful,
+multifast-v1.4.2/examples/example3/AhoCorasickPlus.cpp:    along with multifast.  If not, see <http://www.gnu.org/licenses/>.
+multifast-v1.4.2/examples/example2/example2.c: * This file is part of multifast.
+multifast-v1.4.2/examples/example2/example2.c:    multifast is free software: you can redistribute it and/or modify
+multifast-v1.4.2/examples/example2/example2.c:    multifast is distributed in the hope that it will be useful,
+multifast-v1.4.2/examples/example2/example2.c:    along with multifast.  If not, see <http://www.gnu.org/licenses/>.
+multifast-v1.4.2/examples/example2/example2.c:    CHUNK("city of multifast"),
+multifast-v1.4.2/examples/example2/example2.c:        multifast_replace (trie, 
+multifast-v1.4.2/examples/example2/example2.c:    multifast_rep_flush (trie, 0);
+multifast-v1.4.2/examples/example2/example2.c:        multifast_replace (trie, 
+multifast-v1.4.2/examples/example2/example2.c:    multifast_rep_flush (trie, 0);
+multifast-v1.4.2/multifast/strmm.h: * This file is part of multifast.
+multifast-v1.4.2/multifast/strmm.h:    multifast is free software: you can redistribute it and/or modify
+multifast-v1.4.2/multifast/strmm.h:    multifast is distributed in the hope that it will be useful,
+multifast-v1.4.2/multifast/strmm.h:    along with multifast.  If not, see <http://www.gnu.org/licenses/>.
+multifast-v1.4.2/multifast/pattern.h: * This file is part of multifast.
+multifast-v1.4.2/multifast/pattern.h:    multifast is free software: you can redistribute it and/or modify
+multifast-v1.4.2/multifast/pattern.h:    multifast is distributed in the hope that it will be useful,
+multifast-v1.4.2/multifast/pattern.h:    along with multifast.  If not, see <http://www.gnu.org/licenses/>.
+multifast-v1.4.2/multifast/walker.h: * This file is part of multifast.
+multifast-v1.4.2/multifast/walker.h:    multifast is free software: you can redistribute it and/or modify
+multifast-v1.4.2/multifast/walker.h:    multifast is distributed in the hope that it will be useful,
+multifast-v1.4.2/multifast/walker.h:    along with multifast.  If not, see <http://www.gnu.org/licenses/>.
+multifast-v1.4.2/multifast/multifast.c: * multifast.c:
+multifast-v1.4.2/multifast/multifast.c: * This file is part of multifast.
+multifast-v1.4.2/multifast/multifast.c:    multifast is free software: you can redistribute it and/or modify
+multifast-v1.4.2/multifast/multifast.c:    multifast is distributed in the hope that it will be useful,
+multifast-v1.4.2/multifast/multifast.c:    along with multifast.  If not, see <http://www.gnu.org/licenses/>.
+multifast-v1.4.2/multifast/multifast.c:#include "multifast.h"
+multifast-v1.4.2/multifast/multifast.c:        if (multifast_replace (trie, &intext, rpmod, 
+multifast-v1.4.2/multifast/multifast.c:    multifast_rep_flush (trie, 0);
+multifast-v1.4.2/multifast/multifast.c:    printf("MultiFast v%s Usage:\n%s "
+multifast-v1.4.2/multifast/pattern.c: * This file is part of multifast.
+multifast-v1.4.2/multifast/pattern.c:    multifast is free software: you can redistribute it and/or modify
+multifast-v1.4.2/multifast/pattern.c:    multifast is distributed in the hope that it will be useful,
+multifast-v1.4.2/multifast/pattern.c:    along with multifast.  If not, see <http://www.gnu.org/licenses/>.
+multifast-v1.4.2/multifast/pattern.c:#include "multifast.h"
+multifast-v1.4.2/multifast/README:multifast 2.0.0
+multifast-v1.4.2/multifast/README:$ cd multifast
+multifast-v1.4.2/multifast/README:$ build/multifast -P test/cities.pat test/input1.txt
+multifast-v1.4.2/multifast/README:$ build/multifast -P test/cities.pat test/input1.txt test/input2.txt
+multifast-v1.4.2/multifast/README:$ build/multifast -P test/cities.pat test/input*
+multifast-v1.4.2/multifast/README:$ build/multifast -P test/cities.pat test
+multifast-v1.4.2/multifast/README:$ build/multifast -P test/cities.pat -xrp test/input*
+multifast-v1.4.2/multifast/README:$ build/multifast -P test/cities.pat -ndrp test/input*
+multifast-v1.4.2/multifast/README:$ build/multifast -P test/cities_r.pat -R outdir test/input*
+multifast-v1.4.2/multifast/README:$ find /var/www/ -type f -print0 | xargs -0 build/multifast -P test/cities.pat -xrp
+multifast-v1.4.2/multifast/README:$ cat test/input1.txt | ./build/multifast -P test/cities.pat -dp -
+multifast-v1.4.2/multifast/README:multifast -P pattern_file [-R out_dir [-l] | -n[d|x]rpvfi] [-h] file1 [file2 ...]
+multifast-v1.4.2/multifast/README:for multifast:
+multifast-v1.4.2/multifast/README:$ find /var/www/ -type f -print0 | xargs -0 multifast -P test/cities.pat -nxrpf
+multifast-v1.4.2/multifast/README:$ multifast -P test/cities.pat -ndrpf /var/www/
+multifast-v1.4.2/multifast/README:$ find /var/www/ -type f -print0 | xargs -0 multifast -P test/cities.pat -ndrpf
+multifast-v1.4.2/multifast/README:You cat feed multifast from standard input; to do so you need to write a 
+multifast-v1.4.2/multifast/README:$ cat test/input1.txt | ./build/multifast -P test/cities.pat -dp -
+multifast-v1.4.2/multifast/README:$ build/multifast -P test/cities_r.pat -R outdir test/input*
+multifast-v1.4.2/multifast/README:$ build/multifast -P test/cities_r.pat -R outdir test/input1.txt www/file1.txt
+multifast-v1.4.2/multifast/Makefile:APP_NAME := multifast
+multifast-v1.4.2/multifast/multifast.h: * multifast.h:
+multifast-v1.4.2/multifast/multifast.h: * This file is part of multifast.
+multifast-v1.4.2/multifast/multifast.h:    multifast is free software: you can redistribute it and/or modify
+multifast-v1.4.2/multifast/multifast.h:    multifast is distributed in the hope that it will be useful,
+multifast-v1.4.2/multifast/multifast.h:    along with multifast.  If not, see <http://www.gnu.org/licenses/>.
+multifast-v1.4.2/multifast/multifast.h:#ifndef _MULTIFAST_H_
+multifast-v1.4.2/multifast/multifast.h:#define _MULTIFAST_H_
+multifast-v1.4.2/multifast/multifast.h:#endif /* _MULTIFAST_H_ */
+Binary file multifast-v1.4.2/multifast/build/multifast matches
+Binary file multifast-v1.4.2/multifast/build/multifast.o matches
+multifast-v1.4.2/multifast/reader.h: * This file is part of multifast.
+multifast-v1.4.2/multifast/reader.h:    multifast is free software: you can redistribute it and/or modify
+multifast-v1.4.2/multifast/reader.h:    multifast is distributed in the hope that it will be useful,
+multifast-v1.4.2/multifast/reader.h:    along with multifast.  If not, see <http://www.gnu.org/licenses/>.
+multifast-v1.4.2/multifast/strmm.c: * This file is part of multifast.
+multifast-v1.4.2/multifast/strmm.c:    multifast is free software: you can redistribute it and/or modify
+multifast-v1.4.2/multifast/strmm.c:    multifast is distributed in the hope that it will be useful,
+multifast-v1.4.2/multifast/strmm.c:    along with multifast.  If not, see <http://www.gnu.org/licenses/>.
+multifast-v1.4.2/multifast/walker.c: * This file is part of multifast.
+multifast-v1.4.2/multifast/walker.c:    multifast is free software: you can redistribute it and/or modify
+multifast-v1.4.2/multifast/walker.c:    multifast is distributed in the hope that it will be useful,
+multifast-v1.4.2/multifast/walker.c:    along with multifast.  If not, see <http://www.gnu.org/licenses/>.
+multifast-v1.4.2/multifast/reader.c: * This file is part of multifast.
+multifast-v1.4.2/multifast/reader.c:    multifast is free software: you can redistribute it and/or modify
+multifast-v1.4.2/multifast/reader.c:    multifast is distributed in the hope that it will be useful,
+multifast-v1.4.2/multifast/reader.c:    along with multifast.  If not, see <http://www.gnu.org/licenses/>.
+multifast-v1.4.2/README:MultiFast 2.0.0
+multifast-v1.4.2/README:MultiFast is a fast multiple string search and replace tool which uses Aho-Corasick 
+multifast-v1.4.2/README:  * multifast: A powerful search and replace tool
+multifast-v1.4.2/README:$ tar -zxvf multifast-v2.0.0.tar.gz
+multifast-v1.4.2/README:To build multifast:
+multifast-v1.4.2/README:$ cd ../multifast/
+multifast-v1.4.2/README:For command line option of multifast see the README file in multifast folder.
+multifast-v1.4.2/README:http://multifast.sourceforge.net/
+multifast-v1.4.2/ahocorasick/node.h: * This file is part of multifast.
+multifast-v1.4.2/ahocorasick/node.h:    multifast is free software: you can redistribute it and/or modify
+multifast-v1.4.2/ahocorasick/node.h:    multifast is distributed in the hope that it will be useful,
+multifast-v1.4.2/ahocorasick/node.h:    along with multifast.  If not, see <http://www.gnu.org/licenses/>.
+multifast-v1.4.2/ahocorasick/ahocorasick.c: * This file is part of multifast.
+multifast-v1.4.2/ahocorasick/ahocorasick.c:    multifast is free software: you can redistribute it and/or modify
+multifast-v1.4.2/ahocorasick/ahocorasick.c:    multifast is distributed in the hope that it will be useful,
+multifast-v1.4.2/ahocorasick/ahocorasick.c:    along with multifast.  If not, see <http://www.gnu.org/licenses/>.
+multifast-v1.4.2/ahocorasick/ahocorasick.h: * This file is part of multifast.
+multifast-v1.4.2/ahocorasick/ahocorasick.h:    multifast is free software: you can redistribute it and/or modify
+multifast-v1.4.2/ahocorasick/ahocorasick.h:    multifast is distributed in the hope that it will be useful,
+multifast-v1.4.2/ahocorasick/ahocorasick.h:    along with multifast.  If not, see <http://www.gnu.org/licenses/>.
+multifast-v1.4.2/ahocorasick/ahocorasick.h:int  multifast_replace (AC_TRIE_t *thiz, AC_TEXT_t *text, 
+multifast-v1.4.2/ahocorasick/ahocorasick.h:void multifast_rep_flush (AC_TRIE_t *thiz, int keep);
+multifast-v1.4.2/ahocorasick/replace.h: * This file is part of multifast.
+multifast-v1.4.2/ahocorasick/replace.h:    multifast is free software: you can redistribute it and/or modify
+multifast-v1.4.2/ahocorasick/replace.h:    multifast is distributed in the hope that it will be useful,
+multifast-v1.4.2/ahocorasick/replace.h:    along with multifast.  If not, see <http://www.gnu.org/licenses/>.
+multifast-v1.4.2/ahocorasick/README:    http://multifast.sourceforge.net/
+multifast-v1.4.2/ahocorasick/node.c: * This file is part of multifast.
+multifast-v1.4.2/ahocorasick/node.c:    multifast is free software: you can redistribute it and/or modify
+multifast-v1.4.2/ahocorasick/node.c:    multifast is distributed in the hope that it will be useful,
+multifast-v1.4.2/ahocorasick/node.c:    along with multifast.  If not, see <http://www.gnu.org/licenses/>.
+multifast-v1.4.2/ahocorasick/mpool.h: * This file is part of multifast.
+multifast-v1.4.2/ahocorasick/mpool.h:    multifast is free software: you can redistribute it and/or modify
+multifast-v1.4.2/ahocorasick/mpool.h:    multifast is distributed in the hope that it will be useful,
+multifast-v1.4.2/ahocorasick/mpool.h:    along with multifast.  If not, see <http://www.gnu.org/licenses/>.
+Binary file multifast-v1.4.2/ahocorasick/build/replace.o matches
+Binary file multifast-v1.4.2/ahocorasick/build/libahocorasick.a matches
+multifast-v1.4.2/ahocorasick/mpool.c: * This file is part of multifast.
+multifast-v1.4.2/ahocorasick/mpool.c:    multifast is free software: you can redistribute it and/or modify
+multifast-v1.4.2/ahocorasick/mpool.c:    multifast is distributed in the hope that it will be useful,
+multifast-v1.4.2/ahocorasick/mpool.c:    along with multifast.  If not, see <http://www.gnu.org/licenses/>.
+multifast-v1.4.2/ahocorasick/actypes.h: * This file is part of multifast.
+multifast-v1.4.2/ahocorasick/actypes.h:    multifast is free software: you can redistribute it and/or modify
+multifast-v1.4.2/ahocorasick/actypes.h:    multifast is distributed in the hope that it will be useful,
+multifast-v1.4.2/ahocorasick/actypes.h:    along with multifast.  If not, see <http://www.gnu.org/licenses/>.
+multifast-v1.4.2/ahocorasick/replace.c: * This file is part of multifast.
+multifast-v1.4.2/ahocorasick/replace.c:    multifast is free software: you can redistribute it and/or modify
+multifast-v1.4.2/ahocorasick/replace.c:    multifast is distributed in the hope that it will be useful,
+multifast-v1.4.2/ahocorasick/replace.c:    along with multifast.  If not, see <http://www.gnu.org/licenses/>.
+multifast-v1.4.2/ahocorasick/replace.c:int multifast_replace (AC_TRIE_t *thiz, AC_TEXT_t *instr, 
+multifast-v1.4.2/ahocorasick/replace.c:void multifast_rep_flush (AC_TRIE_t *thiz, int keep)
+multifast-v1.4.2/CHANGELOG:multifast:
+multifast-v1.4.2/CHANGELOG:multifast:
+multifast-v1.4.2/CHANGELOG:	* Re-factoring the code: moved prototypes to multifast header
+multifast-v1.4.2/CHANGELOG:multifast:
+multifast-v1.4.2/CHANGELOG:multifast:
+multifast-v1.4.2/CHANGELOG:multifast:
+multifast-v1.4.2/CHANGELOG:multifast:
+multifast-v1.4.2-bkp/src/phrasal_mwe/get_multi_word-dic_single.sh:#Converting dictionary to multifast dictionary format
+multifast-v1.4.2-bkp/src/phrasal_mwe/Makefile:APP_NAME := extract_key_using_multifast
+multifast-v1.4.2-bkp/src/phrasal_mwe/Makefile:APP_NAME1 := extract_key_using_multifast-hi-en
+multifast-v1.4.2-bkp/src/phrasal_mwe/extract_key_using_multifast.c: * This file is part of multifast.
+multifast-v1.4.2-bkp/src/phrasal_mwe/extract_key_using_multifast.c:    multifast is free software: you can redistribute it and/or modify
+multifast-v1.4.2-bkp/src/phrasal_mwe/extract_key_using_multifast.c:    multifast is distributed in the hope that it will be useful,
+multifast-v1.4.2-bkp/src/phrasal_mwe/extract_key_using_multifast.c:    along with multifast.  If not, see <http://www.gnu.org/licenses/>.
+multifast-v1.4.2-bkp/src/phrasal_mwe/check_hindi_words_only.c: * This file is part of multifast.
+multifast-v1.4.2-bkp/src/phrasal_mwe/check_hindi_words_only.c:    multifast is free software: you can redistribute it and/or modify
+multifast-v1.4.2-bkp/src/phrasal_mwe/check_hindi_words_only.c:    multifast is distributed in the hope that it will be useful,
+multifast-v1.4.2-bkp/src/phrasal_mwe/check_hindi_words_only.c:    along with multifast.  If not, see <http://www.gnu.org/licenses/>.
+multifast-v1.4.2-bkp/src/phrasal_mwe/spell_checker_in_hnd.sh:cd $HOME_anu_test/multifast-v1.4.2/src/phrasal_mwe
+multifast-v1.4.2-bkp/src/phrasal_mwe/spell_checker_in_hnd.sh:$HOME_anu_test/multifast-v1.4.2/src/phrasal_mwe/check_hindi_words_only $2/hindi_words.txt > $2/hindi_wrong_words_tmp.txt
+Binary file multifast-v1.4.2-bkp/src/phrasal_mwe/extract_key_using_multifast.o matches
+multifast-v1.4.2-bkp/src/phrasal_mwe/extract_key_in_hindi_phrase.c: * This file is part of multifast.
+multifast-v1.4.2-bkp/src/phrasal_mwe/extract_key_in_hindi_phrase.c:    multifast is free software: you can redistribute it and/or modify
+multifast-v1.4.2-bkp/src/phrasal_mwe/extract_key_in_hindi_phrase.c:    multifast is distributed in the hope that it will be useful,
+multifast-v1.4.2-bkp/src/phrasal_mwe/extract_key_in_hindi_phrase.c:    along with multifast.  If not, see <http://www.gnu.org/licenses/>.
+multifast-v1.4.2-bkp/src/phrasal_mwe/check_hindi_words.c: * This file is part of multifast.
+multifast-v1.4.2-bkp/src/phrasal_mwe/check_hindi_words.c:    multifast is free software: you can redistribute it and/or modify
+multifast-v1.4.2-bkp/src/phrasal_mwe/check_hindi_words.c:    multifast is distributed in the hope that it will be useful,
+multifast-v1.4.2-bkp/src/phrasal_mwe/check_hindi_words.c:    along with multifast.  If not, see <http://www.gnu.org/licenses/>.
+multifast-v1.4.2-bkp/src/phrasal_mwe/spell_checker.sh:cd $HOME_anu_test/multifast-v1.4.2/src/phrasal_mwe
+multifast-v1.4.2-bkp/src/phrasal_mwe/spell_checker.sh:cd $HOME_anu_test/multifast-v1.4.2/src/
+multifast-v1.4.2-bkp/src/phrasal_mwe/spell_checker.sh:sh get_multi_word-dic.sh  $HOME_anu_test/multifast-v1.4.2/src/phrasal_mwe/hi_IN.dic.txt  $HOME_anu_test/multifast-v1.4.2/src/phrasal_mwe/hi_IN.dic.c
+multifast-v1.4.2-bkp/src/phrasal_mwe/spell_checker.sh:cd $HOME_anu_test/multifast-v1.4.2/src/phrasal_mwe
+multifast-v1.4.2-bkp/src/phrasal_mwe/extract_key_using_multifast-hi-en.c: * This file is part of multifast.
+multifast-v1.4.2-bkp/src/phrasal_mwe/extract_key_using_multifast-hi-en.c:    multifast is free software: you can redistribute it and/or modify
+multifast-v1.4.2-bkp/src/phrasal_mwe/extract_key_using_multifast-hi-en.c:    multifast is distributed in the hope that it will be useful,
+multifast-v1.4.2-bkp/src/phrasal_mwe/extract_key_using_multifast-hi-en.c:    along with multifast.  If not, see <http://www.gnu.org/licenses/>.
+multifast-v1.4.2-bkp/src/phrasal_mwe/find_missing_wrds.py:	elif '(hnd_wrd-hnd_id' in fr[i]: #Multifast output
+multifast-v1.4.2-bkp/src/run.sh:######## Convert canonical form multi word dictionaries to multifast dictionary format
+multifast-v1.4.2-bkp/src/get_multi_word-dic.sh:#Converting dictionary to multifast dictionary format
+Binary file multifast-v1.4.2-bkp/src/multi_word_expression.o matches
+multifast-v1.4.2-bkp/src/multi_word_expression_for_prov.c: * This file is part of multifast.
+multifast-v1.4.2-bkp/src/multi_word_expression_for_prov.c:    multifast is free software: you can redistribute it and/or modify
+multifast-v1.4.2-bkp/src/multi_word_expression_for_prov.c:    multifast is distributed in the hope that it will be useful,
+multifast-v1.4.2-bkp/src/multi_word_expression_for_prov.c:    along with multifast.  If not, see <http://www.gnu.org/licenses/>.
+multifast-v1.4.2-bkp/src/multi_word_expression_for_proper_nouns.c: * This file is part of multifast.
+multifast-v1.4.2-bkp/src/multi_word_expression_for_proper_nouns.c:    multifast is free software: you can redistribute it and/or modify
+multifast-v1.4.2-bkp/src/multi_word_expression_for_proper_nouns.c:    multifast is distributed in the hope that it will be useful,
+multifast-v1.4.2-bkp/src/multi_word_expression_for_proper_nouns.c:    along with multifast.  If not, see <http://www.gnu.org/licenses/>.
+multifast-v1.4.2-bkp/src/multi_word_expression_for_domain.c: * This file is part of multifast.
+multifast-v1.4.2-bkp/src/multi_word_expression_for_domain.c:    multifast is free software: you can redistribute it and/or modify
+multifast-v1.4.2-bkp/src/multi_word_expression_for_domain.c:    multifast is distributed in the hope that it will be useful,
+multifast-v1.4.2-bkp/src/multi_word_expression_for_domain.c:    along with multifast.  If not, see <http://www.gnu.org/licenses/>.
+multifast-v1.4.2-bkp/src/multi_word_expression.c: * This file is part of multifast.
+multifast-v1.4.2-bkp/src/multi_word_expression.c:    multifast is free software: you can redistribute it and/or modify
+multifast-v1.4.2-bkp/src/multi_word_expression.c:    multifast is distributed in the hope that it will be useful,
+multifast-v1.4.2-bkp/src/multi_word_expression.c:    along with multifast.  If not, see <http://www.gnu.org/licenses/>.
+multifast-v1.4.2-bkp/src/multi_word_expression.c: 	   fprintf(fp1, "(multifast_id-wordid\tM%d\t%d)\n", word_count, mul_count);
+multifast-v1.4.2-bkp/documentation/index.html:    <title>Multifast 1.4.2</title>
+multifast-v1.4.2-bkp/documentation/index.html:    <h1>MultiFast 1.4.2</h1>
+multifast-v1.4.2-bkp/documentation/index.html:    <p>MultiFast is a fast multiple-string search tool which implements
+multifast-v1.4.2-bkp/documentation/index.html:    <a href="http://sourceforge.net/projects/multifast/">Download</a>
+multifast-v1.4.2-bkp/documentation/index.html:    <p class="bash">$ tar -zxvf multifast-v1.4.2.tar.gz <br>
+multifast-v1.4.2-bkp/documentation/index.html:      $ cd multifast-v1.4.2/ahocorasick<br>
+multifast-v1.4.2-bkp/documentation/index.html:    "multifast",
+multifast-v1.4.2-bkp/documentation/index.html:AC_ALPHABET_t * input_text1 = {"experience the ease and simplicity of multifast"};
+multifast-v1.4.2-bkp/documentation/index.html:    <h2>multifast Search Utility</h2>
+multifast-v1.4.2-bkp/documentation/index.html:    <p>Before building <span class="codst">multifast</span>, you must
+multifast-v1.4.2-bkp/documentation/index.html:    <p class="bash">$ cd multifast<br>
+multifast-v1.4.2-bkp/documentation/index.html:      class="codst">multifast</span>. it uses the sample pattern and
+multifast-v1.4.2-bkp/documentation/index.html:    <p class="bash"> $ ./multifast -P ../test/cities.pat -drp
+multifast-v1.4.2-bkp/documentation/index.html:      $ ./multifast -P ../test/cities.pat -drp ../test/input1.txt
+multifast-v1.4.2-bkp/documentation/index.html:      $ ./multifast -P ../test/cities.pat -ndrp /etc/<br>
+multifast-v1.4.2-bkp/documentation/index.html:      $ ./multifast -P ../test/sample.pat -xrp ../test/input2.txt<br>
+multifast-v1.4.2-bkp/documentation/index.html:      $ find /var/www/ -type f -print0 | xargs -0 ./multifast -P
+multifast-v1.4.2-bkp/documentation/index.html:      $ ./multifast -P ../test/cities.pat -nxrpiv ../test/input1.txt<br>
+multifast-v1.4.2-bkp/documentation/index.html:      $ ./multifast -P ../test/cities.pat -nxrp ../test/input1.txt
+multifast-v1.4.2-bkp/documentation/index.html:      $ ./multifast -P ../test/cities.pat -ndrpfv /var/www/</p>
+multifast-v1.4.2-bkp/documentation/index.html:    <h4 class="codst">multifast -P pattern_file [-ndxrpfivh] file1
+multifast-v1.4.2-bkp/documentation/index.html:        class="codst">multifast</span> using <span class="codst">find</span>
+multifast-v1.4.2-bkp/documentation/index.html:      ./multifast -P ../test/cities.pat -nxrf</p>
+multifast-v1.4.2-bkp/documentation/index.html:    <p class="bash">$ ./multifast -P ../test/cities.pat -ndrpf /var/www/<br>
+multifast-v1.4.2-bkp/documentation/index.html:      $ find /var/www/ -type f -print0 | xargs -0 ./multifast -P
+multifast-v1.4.2-bkp/documentation/index.html:	<p>you cat feed multifast from standard input; to do so you need to write a 
+multifast-v1.4.2-bkp/documentation/index.html:    <p class="bash">$ cat ../test/input1.txt | ./multifast -P ../test/cities.pat -dp -<br>
+multifast-v1.4.2-bkp/documentation/index.html:    $ cat /etc/services | ./multifast -P ../test/cities.pat -dp -</p>
+multifast-v1.4.2-bkp/documentation/index.html:    <p>See more examples of pattern file in <span class="codst">multifast-code/multifast/test</span>
+multifast-v1.4.2-bkp/README:MultiFast v1.4.2
+multifast-v1.4.2-bkp/README:MultiFast is a fast multiple string search tool which implements Aho-Corasick 
+multifast-v1.4.2-bkp/README:  * multifast: a search tool that uses ahocorasic library
+multifast-v1.4.2-bkp/README:$ tar -zxvf multifast-v1.4.2.tar.gz
+multifast-v1.4.2-bkp/README:to build multifast:
+multifast-v1.4.2-bkp/README:$ cd ../multifast/
+multifast-v1.4.2-bkp/README:for command line option of multifast see the README file in multifast folder.
+multifast-v1.4.2-bkp/README:http://multifast.sourceforge.net/
+multifast-v1.4.2-bkp/ahocorasick/node.h: * This file is part of multifast.
+multifast-v1.4.2-bkp/ahocorasick/node.h:    multifast is free software: you can redistribute it and/or modify
+multifast-v1.4.2-bkp/ahocorasick/node.h:    multifast is distributed in the hope that it will be useful,
+multifast-v1.4.2-bkp/ahocorasick/node.h:    along with multifast.  If not, see <http://www.gnu.org/licenses/>.
+multifast-v1.4.2-bkp/ahocorasick/ahocorasick.c: * This file is part of multifast.
+multifast-v1.4.2-bkp/ahocorasick/ahocorasick.c:    multifast is free software: you can redistribute it and/or modify
+multifast-v1.4.2-bkp/ahocorasick/ahocorasick.c:    multifast is distributed in the hope that it will be useful,
+multifast-v1.4.2-bkp/ahocorasick/ahocorasick.c:    along with multifast.  If not, see <http://www.gnu.org/licenses/>.
+multifast-v1.4.2-bkp/ahocorasick/ahocorasick.h: * This file is part of multifast.
+multifast-v1.4.2-bkp/ahocorasick/ahocorasick.h:    multifast is free software: you can redistribute it and/or modify
+multifast-v1.4.2-bkp/ahocorasick/ahocorasick.h:    multifast is distributed in the hope that it will be useful,
+multifast-v1.4.2-bkp/ahocorasick/ahocorasick.h:    along with multifast.  If not, see <http://www.gnu.org/licenses/>.
+multifast-v1.4.2-bkp/ahocorasick/README:you could also find more practical guides in the multifast program.
+multifast-v1.4.2-bkp/ahocorasick/node.c: * This file is part of multifast.
+multifast-v1.4.2-bkp/ahocorasick/node.c:    multifast is free software: you can redistribute it and/or modify
+multifast-v1.4.2-bkp/ahocorasick/node.c:    multifast is distributed in the hope that it will be useful,
+multifast-v1.4.2-bkp/ahocorasick/node.c:    along with multifast.  If not, see <http://www.gnu.org/licenses/>.
+multifast-v1.4.2-bkp/ahocorasick/actypes.h: * This file is part of multifast.
+multifast-v1.4.2-bkp/ahocorasick/actypes.h:    multifast is free software: you can redistribute it and/or modify
+multifast-v1.4.2-bkp/ahocorasick/actypes.h:    multifast is distributed in the hope that it will be useful,
+multifast-v1.4.2-bkp/ahocorasick/actypes.h:    along with multifast.  If not, see <http://www.gnu.org/licenses/>.
+multifast-v1.4.2-bkp/CHANGELOG:multifast:
+multifast-v1.4.2-bkp/CHANGELOG:	* Re-factoring the code: moved prototypes to multifast header
+multifast-v1.4.2-bkp/CHANGELOG:multifast:
+multifast-v1.4.2-bkp/CHANGELOG:multifast:
+multifast-v1.4.2-bkp/CHANGELOG:multifast:
+multifast-v1.4.2-bkp/CHANGELOG:multifast:
+shell_scripts/anu_compile.sh: echo "Compiling Multifast programmes..."
+shell_scripts/anu_compile.sh: cd  $HOME_anu_test/multifast-v1.4.2/ahocorasick
+shell_scripts/anu_compile.sh: cd  $HOME_anu_test/multifast-v1.4.2/src
+shell_scripts/remove_out-files.sh: echo "Removing Multifast out files"
+shell_scripts/remove_out-files.sh: cd $HOME_anu_test/multifast-v1.4.2/ahocorasick/
+shell_scripts/remove_out-files.sh: cd $HOME_anu_test/multifast-v1.4.2/src/

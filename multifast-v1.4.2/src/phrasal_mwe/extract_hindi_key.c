@@ -1,0 +1,17 @@
+AC_PATTERN_t sample_patterns[] = {
+	{"_,_",0, {stringy: "word_count=1"}},
+	{"_;_",0, {stringy: "word_count=1"}},
+	{"_hEM_",0, {stringy: "word_count=1"}},
+	{"_hEM_ki_",0, {stringy: "word_count=2"}},
+	{"_kahawe_hEM_",0, {stringy: "word_count=2"}},
+	{"_kAma_",0, {stringy: "word_count=1"}},
+	{"_karane_",0, {stringy: "word_count=1"}},
+	{"_ki_",0, {stringy: "word_count=1"}},
+	{"_kiyA_",0, {stringy: "word_count=1"}},
+	{"_koI_",0, {stringy: "word_count=1"}},
+	{"_meM_",0, {stringy: "word_count=1"}},
+	{"_nahIM_",0, {stringy: "word_count=1"}},
+	{"_prAramBa_",0, {stringy: "word_count=1"}},
+	{"_prAramBa_meM_",0, {stringy: "word_count=2"}},
+	{"_yaha_",0, {stringy: "word_count=1"}},
+};

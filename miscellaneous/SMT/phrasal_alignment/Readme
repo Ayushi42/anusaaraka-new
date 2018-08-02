@@ -1,0 +1,28 @@
+#Readme to run phrasal alignment
+################################
+Pre-requisites:
+##############
+	-> Parallel Corpus
+	-> Phrase and Word alignment dictionaries extracted from phrase table
+
+RUN::
+###
+1. Anusaaraka_stanford.sh <english-file> 0 True physics onesent
+	Ex: Anusaaraka_stanford.sh  sample 0 True physics onesent
+		(where sample   -> English file  
+			0       -> default parse
+			True    -> Giving preference to u ser wsd rules
+			physics -> if parallel corpus is physics then use this option 
+				   else use 'general' option
+			onesent -> As parallel corpus already in one sentence per line, 
+				   to skip pre-proccessing using this option.
+		)
+
+2. Anusaaraka_alignment.sh <english-file> <manual-file>
+	Ex: Anusaaraka_alignment.sh sample sample_h
+
+
+To view layered output:
+######################
+firefox $HOME_anu-output/<file-name>_eng_align.html
+	Ex: firefox $HOME_anu-output/sample_eng_align.html

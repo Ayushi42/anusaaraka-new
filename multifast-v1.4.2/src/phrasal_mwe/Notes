@@ -1,0 +1,9 @@
+hindi_words  (Total words )   ---  15866803	 
+
+
+words-new.txt (given to freq prg)  ---   8000000
+
+words_with_frequency_new.txt  ---  62757	missing_words(hindi_wrong_words.txt)	33247
+		new	      ---  10000	missing_words(new2.txt) 		1690
+		5000_m	      ---   5000	missing_words(5000_m2.txt)		 513
+		3000_m	      ---   3000	missing_words(3000_m2.txt)		 226

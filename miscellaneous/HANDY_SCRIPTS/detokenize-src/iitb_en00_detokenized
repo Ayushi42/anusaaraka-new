@@ -1,0 +1,1000 @@
+Detected a good signature
+Detected a good signature with insufficient validity
+Error reading message part:% s
+No open or view action defined for this content type
+File already exists. Overwrite
+Content Type: external-body
+Access type: local-file
+Access type: URL
+Access type: mail-server
+One of the specified fields contains
+None of the specified fields contains
+One of the regular expressions matches
+None of the regular expressions matches
+Match when date is in the interval
+Match when date is outside the interval
+Match when one of these flags is set
+You must specify the name of the user header to match on
+You must specify at least one field for matching
+You must provide a string
+You must provide at least one regular expression
+Low date is incorrect
+High date is incorrect
+Low date is greater than high date
+Filtering using regular expressions is not yet implemented
+Match when message date is in the interval
+Inside / outside the date interval
+Match when one flag is set / when no flag is set
+Edit condition for filter
+Filter with no condition was omitted
+No filter name specified
+Filter must have conditions
+You must provide a sound to play
+A filter run dialog is open. Close it before you can modify filters
+Filter "% s" has no condition
+There are opened filter run dialogs, close them before you can modify filters
+Error when applying filters
+Balsa Filters of Mailbox
+The filters dialog is opened, close it before you can run filters on any mailbox
+An IMAP folder that is not a mailbox has no properties that can be changed
+This folder is not stored in configuration. I do not yet know how to remove it from remote server
+New Local% s Mailbox
+The folder edition to be written
+Get new mail on startup
+Compose a new email to EMAIL @ ADDRESS
+Attach file at PATH
+Opens first unread mailbox
+Opens default Inbox on startup
+Prints number unread and unsent messages
+Attach file at URI
+Continue editing current message
+Fetch new incoming mail
+Send messages from the outbox
+Send and Receive messages
+Open the address book
+Compose a new message
+Add a new mbox style mailbox
+Add a new Maildir style mailbox
+Add a new MH style mailbox
+New "Maildir" mailbox
+New "MH" mailbox
+Add a new IMAP mailbox
+Add a new IMAP folder
+Add a new IMAP subfolder
+Export filters as Sieve scripts
+Collapse all expanded threads
+Delete messages from the Trash mailbox
+Create and set current identities
+Select all messages in current mailbox
+Edit the selected mailbox
+Delete the selected mailbox
+Expunge messages marked as deleted in the current mailbox
+Select filters to be applied automatically to current mailbox
+Remove duplicated messages from the current mailbox
+Reply to the current message
+Reply to all recipients of the current message
+Reply to mailing list
+Store address of sender in addressbook
+Forward the current message
+Forward the current message as attachment
+Forward the current message inline
+Pipe the message through another program
+Select all messages in current thread
+Save currently displayed part of message
+Next part in message
+Previous part in message
+Find a string in this message
+Move the current message to Trash mailbox
+Toggle display of mailbox and folder tree
+Toggle display of mailbox notebook tabs
+Enable quick message index filter
+No threading at all
+Balsa is sending a mail now. Abort sending
+Subject or Sender Contains
+Unable to Open Mailbox!% s
+IMAP mailbox:% s
+Local mailbox:% s
+You have new mail
+Balsa: you have new mail
+The next unread message is in% s
+Show only matching messages
+Open next matching message
+Removing duplicates failed:% s
+Could not open trash:% s
+Shown mailbox:% s
+Close the message window
+Move the message to Trash mailbox
+Message from% s:% s
+Select your local mail directory
+Do background check quietly (no messages in status bar)
+Quoted and flowed text
+Quoted text regular expression
+Display of multipart / alternative parts
+display as "?"
+Message disposition notification requests
+When I receive a message whose sender requested a Message Disposition Notification (MDN), send it if
+The message header looks clean (the notify-to address is the return path, and I am in the "To:" or "Cc:" list)
+The message header looks suspicious
+Wrap outgoing text at
+Automatically quote original when replying
+Copy outgoing messages to sentbox
+Send button always queues outgoing mail in outbox
+Edit headers in external editor
+Include HTML parts as text when replying or forwarding
+Show mailbox statistics in left pane
+Automatically view message when mailbox opened
+PageUp / PageDown keys scroll text by
+Date encoding (for strftime)
+Invalid or incomplete address label color
+Expand threads on open
+Ignore words shorter than
+Empty trash on exit
+Close mailbox if unused more than
+Expunge deleted messages when mailbox is closed
+... and if unused more than
+After moving a message
+Open Inbox upon startup
+Check mail upon startup
+Remember open mailboxes between sessions
+Choose depth 1 for fast startup; this defers scanning some folders. To see more of the tree at startup, choose a greater depth
+Scan local folders to depth
+Scan IMAP folders to depth
+Show in status bar
+Show next unread message
+Error printing message:% s
+Error during filters loading
+Error opening GConf database
+Include selected message (s)
+Attach selected message (s)
+Print the edited message
+Cut the selected text
+Check the spelling of the message
+Select the Identity to use for the message
+Queue this message in Outbox for sending
+Save this message and close
+Request Message Disposition Notification
+Encrypt message using GPG
+Cannot create file URI object for% s
+Message from% s, subject: "% s"
+Attaching message failed. Possible reason: not enough temporary space
+inlined% s part
+attached% s part
+message from% s, subject "% s"
+Select parts for quotation
+Could not save message
+Could not open draftbox:% s
+not in your directory
+You did not specify a subject for this message
+You selected OpenPGP security for this message
+Send failed:% s% s
+Send failed:% s
+Could not postpone message:% s
+Could not postpone message
+Quoted Text Regular Expression
+Reply to% s:% s
+Forward message to% s:% s
+New message to% s:% s
+Replace the current word with the selected suggestion
+Replace all occurrences of the current word with the selected suggestion
+Skip the current word
+Skip all occurrences of the current word
+Add the current word to your personal dictionary
+Revert all changes and finish spell checking
+Store address: no addresses
+Save this address and close the dialog
+No address book selected
+Queue this message for sending
+Check folder sizes and available disk space
+Which type of chart should be displayed
+The initial size of the window
+Print version information and exit
+Could not analyze volume
+A graphical tool to analyze disk usage
+Failed to move file to the trash
+Could not detect occupied disk sizes
+Could not analyze disk usage
+The maximum depth drawn in the chart from the root
+Set the model of the chart
+Set the root node from the model
+Check folder sizes and available disk space
+Which type of chart should be displayed
+The initial size of the window
+Print version information and exit
+Could not analyze volume
+A graphical tool to analyze disk usage
+Failed to move file to the trash
+Could not detect occupied disk sizes
+Could not analyze disk usage
+Check folder sizes and available disk space
+Disk Usage Analyzer Preferences
+Whether any change to the home directory should be monitored
+Whether the toolbar should be visible in main window
+Whether the status bar at the bottom of main window should be visible
+Which type of chart should be displayed
+Scan your home folder
+Scan the file system
+Scan a remote folder or file system
+Could not initialize monitoring
+Changes to your home folder will not be monitored
+View as Rings Chart
+View as Treemap Chart
+Too many arguments. Only one directory can be specified
+Could not detect any mount point
+Without mount points disk usage cannot be analyzed
+The maximum depth drawn in the chart from the root
+Set the model of the chart
+Set the root node from the model
+Move to parent folder
+Cannot Connect to Server. You must enter a name for the server
+Please enter a name and try again
+Rescan your home folder
+The content of your home folder has changed. Select rescan to update the disk usage details
+Cannot check an excluded folder!
+Could not analyze disk usage
+There is no installed viewer capable of displaying the folder
+Could not move file to the Trash
+There was an error displaying help
+A graphical tool to analyze disk usage
+The document does not exist
+The folder does not exist
+Check folder sizes and available disk space
+Which type of chart should be displayed
+Print version information and exit
+The maximum depth drawn in the chart from the root
+Set the model of the chart
+Set the root node from the model
+Scan a remote folder
+Could not analyze volume
+A graphical tool to analyze disk usage
+Could not analyze disk usage
+Check folder sizes and available disk space
+Which type of chart should be displayed
+The initial size of the window
+Print version information and exit
+The maximum depth drawn in the chart from the root
+Set the model of the chart
+Set the root node from the model
+Could not analyze volume
+A graphical tool to analyze disk usage
+Could not analyze disk usage
+Check folder sizes and available disk space
+Which type of chart should be displayed
+The initial size of the window
+Print version information and exit
+Could not analyze volume
+A graphical tool to analyze disk usage
+Failed to move file to the trash
+Could not detect occupied disk sizes
+Could not analyze disk usage
+No results were found
+Beagle cannot be run as root
+For security reasons, Beagle cannot be run as root. You should restart as a regular user
+Search service not running
+Type in search terms
+Desktop Search: {0}
+Service is already running!
+Service was not running!
+Search in internet services
+Search for data on your desktop
+Format used mostly on the North American Continent
+Format used mostly in Europe
+Brasero media burning library
+Display options for Brasero-burn library
+Directories cannot be added to video or audio discs
+Playlists cannot be added to video or audio discs
+There are no files to write to disc
+The file does not appear to be a playlist
+An internal error occured
+Only one track at a time can be checked
+Retrieving image format and size
+The format of the disc image could not be identified
+Please set it manually
+Simulation of video DVD burning
+Simulation of data DVD burning
+Simulation of image to DVD burning
+Burning image to DVD
+Simulation of data DVD copying
+Simulation of (S) VCD burning
+Simulation of audio CD burning
+Simulation of data CD burning
+Simulation of CD copying
+Simulation of image to CD burning
+Burning image to CD
+Simulation of video disc burning
+Simulation of data disc burning
+Simulation of disc copying
+Simulation of image to disc burning
+Burning image to disc
+Please replace the disc with a rewritable disc holding data
+Please replace the disc with a disc holding data
+Please insert a rewritable disc holding data
+Please insert a disc holding data
+Please replace the disc with a recordable CD
+Please insert a recordable CD
+Please replace the disc with a recordable DVD
+Please insert a recordable DVD
+Please replace the disc with a recordable CD or DVD
+Please insert a recordable CD or DVD
+An image of the disc has been created on your hard drive. Burning will begin as soon as a recordable disc is inserted
+A data integrity test will begin as soon as the disc is inserted
+Please re-insert the disc in the CD / DVD burner
+Make sure another application is not using it
+Please eject the disc and reload it
+A file could not be created at the location specified for temporary files
+The image could not be created at the specified location
+Do you want to specify another location for this session or retry with the current location
+You may want to free some space on the disc and retry
+Location for Image File
+Location for Temporary Files
+Do you really want to blank the current disc
+The disc in the drive holds data
+Already burnt files will be invisible (though still readable)
+Do you want to continue anyway
+Appending new files to a multisession disc is not advised
+Appending audio tracks to a CD is not advised
+Recording audio tracks on a rewritable disc is not advised
+Do you want to continue with full Windows compatibility disabled
+The simulation was successful
+The session log cannot be displayed
+The log file could not be found
+An unknown error occured
+Video DVD successfully burned
+(S) VCD successfully burned
+Audio CD successfully burnt
+Image of DVD successfully created
+Image of CD successfully created
+Image successfully burnt to DVD
+Data DVD successfully burnt
+Data CD successfully burnt
+There are some files left to burn
+There are some more videos left to burn
+There are some more songs left to burn
+Not enough space available on the disc
+Do you really want to quit
+Interrupting the process may make disc unusable
+Please insert a recordable CD or DVD if you don't want to write to an image file
+Would you like to burn the selection of files across several media
+The data size is too large for the disc even with the overburn option
+Burn the selection of files across several media
+Please choose another CD or DVD or insert a new one
+There is no recordable disc inserted
+No track information (artist, title,) will be written to the disc
+This is not supported by the current active burning backend
+There are no songs to write to disc
+There are no videos to write to disc
+There is no inserted disc to copy
+Please select a disc image
+Please select another image
+It doesn't appear to be a valid disc image or a valid cue file
+Please insert a disc that is not copy protected
+Such a disc cannot be copied without the proper plugins
+Please replace the disc with a supported CD or DVD
+It is not possible to write with the current set of plugins
+Would you like to burn beyond the disc reported capacity
+Burn beyond the disc reported capacity
+The drive that holds the source disc will also be the one used to record
+A new recordable disc will be required once the one currently loaded has been copied
+Select a disc to write to
+Do you want to create a disc from the contents of the image or with the image file inside
+Select a disc image to write
+CD / DVD Copy Options
+Select disc to copy
+The drive is busy
+No source drive specified
+The drive has no rewriting capabilities
+The drive cannot burn or the disc cannot be burnt
+Merging data is impossible with this disc
+There is no track to be burnt
+No format for the temporary image could be found
+New disc in the burner holding source disc
+Do you really want to choose this location
+You do not have the required permission to write at this location
+Impossible to retrieve speeds
+Allow to add more data to the disc later
+Set the directory where to store temporary files
+Do you really want to keep the current extension for the disc image name
+If you choose to keep it, programs may not be able to recognize the file type properly
+The size of the volume could not be retrieved
+No path was specified for the image output
+The file is not stored locally
+The image could not be loaded
+Error while loading the project
+The project could not be opened
+The file is empty
+It does not seem to be a valid Brasero project
+Brasero optical media library
+Display options for Brasero-media library
+Searching for available discs
+The disc mount point could not be retrieved
+Invalid parameter in command
+Invalid field in command
+The device timed out
+Application does not accept documents on command line
+Not a launchable item
+Disable connection to session manager
+Specify file containing saved configuration
+Show session management options
+Impossible to retrieve local file path
+Drag or copy files below to write them to disc
+Write contents to a CD or DVD disc
+Write disc image to a CD or DVD disc
+Create a copy of this CD or DVD disc
+Blank this CD or DVD disc
+Choose plugins for brasero
+Check data integrity of disc
+A simple to use CD / DVD burning application for GNOME
+Error while loading the project
+Display the projects recently opened
+Create and copy CDs and DVDs
+Contains the name of the favourite burn engine suite installed. It will be used if possible
+White list of additional plugins to use
+Contains the list of additional plugins Brasero will use to burn discs. If set to NULL, Brasero will load them all
+Whether to display a side pane. Set to true to use it
+Pane to display audio projects
+Pane to display data projects
+Pane to display video projects
+Whether to display file preview. Set to true to use it
+Width for image preview
+Default width for image preview
+Height of image preview
+Default height for image preview
+Width for video preview
+Default width for video preview
+Height for video preview
+Default height for video preview
+Should brasero filter hidden files
+Should brasero filter hidden files. Set to true, brasero will filter hidden files
+Replace symbolic links by their targets
+Should brasero replace symbolic links by their target files in the project. Set to true, brasero will replace symbolic links
+Should brasero filter broken symbolic links
+Should brasero filter broken symbolic links. Set to true, brasero will filter broken symbolic links
+Should brasero notify when files are filtered
+Should brasero notify when files are filtered. Set to true, brasero will display the notification
+Open the selected files
+Remove the selected files from the project
+Add the files stored in the clipboard
+Split the selected track
+The track will be padded at its end
+This file is a video and therefore only the audio part can be written to the disc
+Do you want to search for audio files inside the directory
+Directories cannot be added to an audio disc
+Select one song only please
+Impossible to split more than one song at a time
+The disc was successfully blanked
+The disc is ready for use
+Activate fast blanking by opposition to a longer thorough blanking
+An unknown error occured
+Select if you want to search among image files only
+Select if you want to search among video files only
+Select if you want to search among audio files only
+Select if you want to search among your text documents only
+Click to start the search
+Number of results displayed
+Gives the length of the pause that should follow the track
+Rename the selected file
+Create a new empty folder
+The session could not be imported
+The contents of the project changed since it was saved
+Discard the current modified project
+Continue with the current modified project
+It is a recursive symlink
+It does not exist at the specified location
+Should files be renamed to be fully Windows-compatible
+A file with this name already exists in the folder. Replacing it will overwrite its content (on the disc only)
+That way, old files from previous sessions will be usable after burning
+Click here to import its contents
+Please wait while the project is loading
+Cancel loading current project
+Display video, audio and image preview
+Show a side pane along the project
+Set an horizontal layout
+Set a vertical layout
+Click to close the side pane
+Start and stop playing
+Save current project to a different location
+Add files to the project
+Remove all files from the project
+To add files to this project you can
+drag files in this area from the selection pane or from the file manager
+double click on files in the selection pane
+copy files (from file manager for example) and paste in this area
+To remove files from this project you can
+The size of the project is too large for the disc even with the overburn option
+Start to burn the contents of the selection
+Please add songs to the project
+Please add files to the project
+Do you really want to create a new project and discard the changes to current one
+If you choose to create a new project, all changes made will be lost
+Do you really want to create a new project and discard the current one
+If you choose to create a new project, all files already added will be discarded. Note that files will not be deleted from their own location, just no longer listed here
+Do you really want to empty the current project
+Emptying a project will remove all files already added. All the work will be lost. Note that files will not be deleted from their own location, just no longer listed here
+Your project has not been saved
+Save the changes of current project before closing
+If you don't save, changes will be permanently lost
+Save project as Brasero audio project
+Save project as a plain text list
+Save project as a PLS playlist
+Design and print covers for CDs
+Create a new project
+Let you choose your new project
+Create a traditional audio CD that will be playable on computers and stereos
+Create a CD / DVD containing any type of data that can only be read on a computer
+Create a video DVD or a SVCD that are readable on TV readers
+Burn an existing CD / DVD image to disc
+Brasero-New Audio Disc Project
+Brasero-New Data Disc Project
+Brasero-New Video Disc Project
+Browse the file system
+Search files using keywords
+Display playlists and their contents
+Create a data CD / DVD
+Create a video DVD or a SVCD
+Load the last project that was not burnt and not saved
+No recently used project
+Create a new project
+The file integrity check could not be performed
+The file integrity was performed successfully
+There seems to be no corrupted file on the disc
+The following files appear to be corrupted
+Please wait until the estimation of the size is completed
+All files need to be analysed to complete this operation
+The operation cannot be performed
+The disc is not supported
+The drive is empty
+Open the specified project
+Open the specified playlist as an audio project
+Force brasero to display the project selection page
+Open the blank disc dialog
+Open the check disc dialog
+Burn the specified project and REMOVE it. This option is mainly useful for integration use with other applications
+The project is empty
+Incompatible command line options used
+Only one option can be given at a time
+You do not have the required permissions to use this drive
+Last session import failed
+An image could not be created
+Some files have invalid filenames
+There is no space left on the device
+The location you chose to store the image on does not have enough free space for the disc image
+An error occured while writing to disc
+The system is too slow to write the disc at this speed. Try a lower speed
+The disc needs to be reloaded before being recorded
+Video DVD could not be opened
+The drive address could not be retrieved
+Read options could not be created
+Volume could not be created
+Allows to burn files not stored locally
+Normalize allows to set consistent sound levels between tracks
+Impossible to link plugin pads
+Error while getting duration
+Do you really want to split the track
+The track wasn't split
+No silence could be detected
+An error occured while detecting silences
+This will remove all previous results
+Do you really want to carry on with automatic splitting
+Do you really want to empty the slices preview
+Method to be used to split the track
+Split track in parts with a fixed length
+Split track in a fixed number of parts
+Split track for each silence
+Merge a selected slice with the next selected one
+Remove the selected slices
+Clear the slices preview
+Restore the selected files
+Set the options for file filtering
+Creating checksum for image files
+No checksum file could be found on the disc
+Some files may be corrupted on the disc
+Allows to check file integrities on a disc
+Hashing algorithm to be used
+Allows to check data integrity on disc after it is burnt
+Number files according to a pattern
+Open the selected video
+Remove the selected videos from the project
+Do you want to search for video files inside the directory
+Directories cannot be added to video discs
+Please only add files with video contents
+Copy CDs and DVDs
+Error querying for keywords
+Number of results displayed
+Copying audio track% 02d
+Preparing to copy audio disc
+The drive is busy
+Format used mostly on the North American continent
+Format used mostly in Europe
+Brasero media burning library
+Display options for Brasero-burn library
+Directories cannot be added to video or audio discs
+Playlists cannot be added to video or audio discs
+There are no files to write to disc
+The file does not appear to be a playlist
+An internal error occurred
+Only one track at a time can be checked
+Retrieving image format and size
+The format of the disc image could not be identified
+Please set it manually
+Simulation of video DVD burning
+Simulation of data DVD burning
+Simulation of image to DVD burning
+Burning image to DVD
+Simulation of data DVD copying
+Simulation of (S) VCD burning
+Simulation of audio CD burning
+Simulation of data CD burning
+Simulation of CD copying
+Simulation of image to CD burning
+Burning image to CD
+Simulation of video disc burning
+Simulation of data disc burning
+Simulation of disc copying
+Simulation of image to disc burning
+Burning image to disc
+Please replace the disc with a rewritable disc holding data
+Please replace the disc with a disc holding data
+Please insert a rewritable disc holding data
+Please insert a disc holding data
+Please replace the disc with a writable CD
+Please insert a writable CD
+Please replace the disc with a writable DVD
+Please insert a writable DVD
+Please replace the disc with a writable CD or DVD
+Please insert a writable CD or DVD
+An image of the disc has been created on your hard drive. Burning will begin as soon as a writable disc is inserted
+A data integrity test will begin as soon as the disc is inserted
+Please re-insert the disc in the CD / DVD burner
+Make sure another application is not using it
+Please eject the disc and reload it
+A file could not be created at the location specified for temporary files
+The image could not be created at the specified location
+Do you want to specify another location for this session or retry with the current location
+You may want to free some space on the disc and retry
+Location for Image File
+Location for Temporary Files
+Do you really want to blank the current disc
+The disc in the drive holds data
+If you don't, they will be invisible (though still readable)
+Do you want to continue anyway
+Appending audio tracks to a CD is not advised
+Recording audio tracks on a rewritable disc is not advised
+Please eject the disc from "% s" manually
+Do you want to continue with full Windows compatibility disabled
+The simulation was successful
+An unknown error occurred
+Video DVD successfully burned
+(S) VCD successfully burned
+Audio CD successfully burned
+Image of DVD successfully created
+Image of CD successfully created
+Image successfully burned to DVD
+Data DVD successfully burned
+Data CD successfully burned
+There are some files left to burn
+There are some more videos left to burn
+There are some more songs left to burn
+Not enough space available on the disc
+Do you really want to quit
+Interrupting the process may make disc unusable
+Please insert a writable CD or DVD if you don't want to write to an image file
+Would you like to burn the selection of files across several media
+The data size is too large for the disc even with the overburn option
+Burn the selection of files across several media
+Please choose another CD or DVD or insert a new one
+No track information (artist, title,) will be written to the disc
+This is not supported by the current active burning backend
+There are no songs to write to disc
+There are no videos to write to disc
+There is no inserted disc to copy
+Please select a disc image
+Please select another image
+It doesn't appear to be a valid disc image or a valid cue file
+Please insert a disc that is not copy protected
+Please replace the disc with a supported CD or DVD
+Would you like to burn beyond the disc's reported capacity
+Burn beyond the disc's reported capacity
+The drive that holds the source disc will also be the one used to record
+A new writable disc will be required once the currently loaded one has been copied
+Select a disc to write to
+Do you want to create a disc from the contents of the image or with the image file inside
+Select a disc image to write
+Copy CD / DVD
+Select disc to copy
+No source drive specified
+The drive has no rewriting capabilities
+Merging data is impossible with this disc
+There is no track to burn
+No format for the temporary image could be found
+New disc in the burner holding the source disc
+Do you really want to choose this location
+You do not have the required permission to write at this location
+Impossible to retrieve speeds
+Allow to add more data to the disc later
+Set the directory where to store temporary files
+Do you really want to keep the current extension for the disc image name
+If you choose to keep it, programs may not be able to recognize the file type properly
+The size of the volume could not be retrieved
+No path was specified for the image output
+The file is not stored locally
+The image could not be loaded
+Error while loading the project
+The project could not be opened
+The file is empty
+It does not seem to be a valid Brasero project
+Brasero optical media library
+Display options for Brasero media library
+Searching for available discs
+The disc mount point could not be retrieved
+Invalid parameter in command
+Invalid field in command
+The device timed out
+Application does not accept documents on command line
+Not a launchable item
+Disable connection to session manager
+Specify file containing saved configuration
+Show session management options
+Impossible to retrieve local file path
+Drag or copy files below to write them to disc
+Write contents to a CD or DVD
+Write disc image to a CD or DVD
+Create a copy of this CD or DVD
+Blank this CD or DVD
+Choose plugins for Brasero
+Check data integrity of disc
+Error while loading the project
+Please add files to the project
+The project is empty
+A simple to use CD / DVD burning application for GNOME
+Display the projects recently opened
+Create and copy CDs and DVDs
+Contains the name of the favourite burn engine suite installed. It will be used if possible
+White list of additional plugins to use
+Contains the list of additional plugins Brasero will use to burn discs. If set to NULL, Brasero will load them all
+Whether to display file preview. Set to true to use it
+Should brasero filter hidden files
+Should brasero filter hidden files. Set to true, brasero will filter hidden files
+Replace symbolic links by their targets
+Should brasero replace symbolic links by their target files in the project. Set to true, brasero will replace symbolic links
+Should brasero filter broken symbolic links
+Should brasero filter broken symbolic links. Set to true, brasero will filter broken symbolic links
+Open the selected files
+Add the files stored in the clipboard
+Split the selected track
+The track will be padded at its end
+This file is a video and therefore only the audio part can be written to the disc
+Do you want to search for audio files inside the directory
+Directories cannot be added to an audio disc
+Do you want to create an audio CD with DTS tracks
+Select one song only please
+Impossible to split more than one song at a time
+The disc was successfully blanked
+The disc is ready for use
+Activate fast blanking, as opposed to a longer, thorough blanking
+An unknown error occurred
+Select if you want to search among image files only
+Select if you want to search among video files only
+Select if you want to search among audio files only
+Select if you want to search among your text documents only
+Click to start the search
+Gives the length of the pause that should follow the track
+Rename the selected file
+Create a new empty folder
+The session could not be imported
+The contents of the project changed since it was saved
+Discard the current modified project
+Continue with the current modified project
+It is a recursive symlink
+It does not exist at the specified location
+Should files be renamed to be fully Windows-compatible
+A file with this name already exists in the folder. Replacing it will overwrite its content on the disc to be burnt
+That way, old files from previous sessions will be usable after burning
+Click here to import its contents
+Please wait while the project is loading
+Cancel loading current project
+Display video, audio and image preview
+Show a side pane along the project
+Set a horizontal layout
+Set a vertical layout
+Click to close the side pane
+Start and stop playing
+Save current project to a different location
+Add files to the project
+Remove all files from the project
+The project is too large for the disc even with the overburn option
+Start to burn the contents of the selection
+Please add songs to the project
+Do you really want to create a new project and discard the changes to current one
+If you choose to create a new empty project, all changes will be lost
+Do you want to discard the file selection or add it to the new project
+If you choose to create a new empty project, the file selection will be discarded
+Do you really want to create a new project and discard the current one
+Do you really want to empty the current project
+Emptying a project will remove all files already added. All the work will be lost. Note that files will not be deleted from their own location, just no longer listed here
+Your project has not been saved
+Save the changes of current project before closing
+If you don't save, changes will be permanently lost
+Save project as a Brasero audio project
+Save project as a plain text list
+Save project as a PLS playlist
+Design and print covers for CDs
+Create a new project
+Let you choose your new project
+Create a traditional audio CD that will be playable on computers and stereos
+Create a CD / DVD containing any type of data that can only be read on a computer
+Create a video DVD or an SVCD that are readable on TV readers
+Burn an existing CD / DVD image to disc
+Brasero New Audio Disc Project
+Brasero New Data Disc Project
+Brasero New Video Disc Project
+Brasero New Image File
+Browse the file system
+Search files using keywords
+Display playlists and their contents
+Create a data CD / DVD
+Create a video DVD or an SVCD
+Load the last project that was not burned and not saved
+No recently used project
+Create a new project
+The file integrity check could not be performed
+The file integrity was performed successfully
+There seem to be no corrupted files on the disc
+The following files appear to be corrupted
+Please wait until the estimation of the size is completed
+All files need to be analysed to complete this operation
+The operation cannot be performed
+The disc is not supported
+The drive is empty
+Open the specified project
+Open the specified playlist as an audio project
+Force brasero to display the project selection page
+Open the blank disc dialog
+Open the check disc dialog
+Burn the specified project and remove it. This option is mainly useful for integration with other applications
+Wrong command line option
+Incompatible command line options used
+Only one option can be given at a time
+You do not have the required permissions to use this drive
+Last session import failed
+An image could not be created
+Some files have invalid filenames
+There is no space left on the device
+The location you chose to store the image on does not have enough free space for the disc image
+An error occured while writing to disc
+The system is too slow to write the disc at this speed. Try a lower speed
+The disc needs to be reloaded before being recorded
+Burns, blanks and formats CDs and DVDs
+An error occurred while writing to disc
+Video DVD could not be opened
+The drive address could not be retrieved
+Volume could not be created
+Read options could not be created
+Allows files not stored locally to be burned
+Impossible to link plugin pads
+Sets consistent sound levels between tracks
+Error while getting duration
+Do you really want to split the track
+The track wasn't split
+No silence could be detected
+An error occurred while detecting silences
+This will remove all previous results
+Do you really want to carry on with automatic splitting
+Do you really want to empty the slices preview
+Method to be used to split the track
+Split track in parts with a fixed length
+Split track in a fixed number of parts
+Split track for each silence
+Merge a selected slice with the next selected one
+Remove the selected slices
+Clear the slices preview
+Restore the selected files
+Set the options for file filtering
+Creating checksum for image files
+No checksum file could be found on the disc
+Some files may be corrupted on the disc
+Checks file integrities on a disc
+Hashing algorithm to be used
+Checks disc integrity after it is burnt
+Number files according to a pattern
+Open the selected video
+Remove the selected videos from the project
+Do you want to search for video files inside the directory
+Directories cannot be added to video discs
+Please only add files with video content
+Creates disc images suitable for Video DVDs
+Creates disc images suitable for SVCDs
+Copy CDs and DVDs
+Error querying for keywords
+Number of results displayed
+Open the specified project
+Open the specified playlist as an audio project
+Force Brasero to display the project selection page
+Open the blank disc dialog
+Open the check disc dialog
+Burn the specified project and remove it. This option is mainly useful for integration with other applications
+Wrong command line option
+Incompatible command line options used
+Only one option can be given at a time
+Copying audio track% 02d
+Preparing to copy audio disc
+Format used mostly on the North American continent
+Format used mostly in Europe
+Brasero media burning library
+Display options for Brasero-burn library
+Directories cannot be added to video or audio discs
+Playlists cannot be added to video or audio discs
+The drive is busy
+There are no files to write to disc
+The file does not appear to be a playlist
+An internal error occurred
+Only one track at a time can be checked
+Retrieving image format and size
+The format of the disc image could not be identified
+Please set it manually
+Simulation of video DVD burning
+Simulation of data DVD burning
+Simulation of image to DVD burning
+Burning image to DVD
+Simulation of data DVD copying
+Simulation of (S) VCD burning
+Simulation of audio CD burning
+Simulation of data CD burning
+Simulation of CD copying
+Simulation of image to CD burning
+Burning image to CD
+Simulation of video disc burning
+Simulation of data disc burning
+Simulation of disc copying
+Simulation of image to disc burning
+Burning image to disc
+Please replace the disc with a rewritable disc holding data
+Please replace the disc with a disc holding data
+Please insert a rewritable disc holding data
+Please insert a disc holding data
+Please replace the disc with a writable CD
+Please insert a writable CD
+Please replace the disc with a writable DVD
+Please insert a writable DVD
+Please replace the disc with a writable CD or DVD
+Please insert a writable CD or DVD
+An image of the disc has been created on your hard drive. Burning will begin as soon as a writable disc is inserted
+A data integrity test will begin as soon as the disc is inserted
+Please re-insert the disc in the CD / DVD burner
+Make sure another application is not using it
+Please eject the disc and reload it
+A file could not be created at the location specified for temporary files
+The image could not be created at the specified location
+Do you want to specify another location for this session or retry with the current location
+You may want to free some space on the disc and retry
+Location for Image File
+Location for Temporary Files
+Do you really want to blank the current disc
+The disc in the drive holds data
+If you don't, they will be invisible (though still readable)
+Do you want to continue anyway
+Appending audio tracks to a CD is not advised
+Recording audio tracks on a rewritable disc is not advised
+Please eject the disc from "% s" manually
+The currently inserted disc could not be blanked
+Do you want to continue with full Windows compatibility disabled
+The simulation was successful
+An unknown error occurred
+Video DVD successfully burned
+(S) VCD successfully burned
+Audio CD successfully burned
+Image of DVD successfully created
+Image of CD successfully created
+Image successfully burned to DVD
+Data DVD successfully burned
+Data CD successfully burned
+There are some files left to burn
+There are some more videos left to burn
+There are some more songs left to burn
+Not enough space available on the disc
+Do you really want to quit
+Interrupting the process may make disc unusable
+Please insert a writable CD or DVD if you don't want to write to an image file
+Would you like to burn the selection of files across several media
+The data size is too large for the disc even with the overburn option
+Burn the selection of files across several media
+Please choose another CD or DVD or insert a new one
+No track information (artist, title,) will be written to the disc

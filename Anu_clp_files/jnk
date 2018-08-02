@@ -1,0 +1,269 @@
+         CLIPS (Quicksilver Beta 5/31/08)
+CLIPS> (load* "word_without_adverb.clp")
+TRUE
+CLIPS> (bsave "word_without_adverb.bclp")
+TRUE
+CLIPS> (clear)
+CLIPS> (load*  "parserid_wordid_mapping.clp")
+TRUE
+CLIPS> (bsave  "parserid_wordid_mapping.bclp")
+TRUE
+CLIPS> (clear)
+CLIPS> (load*  "lwgid_wordid_mapping.clp")
+TRUE
+CLIPS> (bsave  "lwgid_wordid_mapping.bclp")
+TRUE
+CLIPS> (clear)
+CLIPS> (load*  "cat_rule.clp")
+TRUE
+CLIPS> (bsave  "cat_rule.bclp")
+TRUE
+CLIPS> (clear)
+CLIPS> (load*  "root_rule.clp")
+TRUE
+CLIPS> (bsave  "root_rule.bclp")
+[CSTRNBIN1] WARNING: Constraints are not saved with a binary image
+  when dynamic constraint checking is disabled.
+TRUE
+CLIPS> (clear)
+CLIPS> (load*  "lwg_rules.clp")
+TRUE
+CLIPS> (bsave  "lwg_rules.bclp")
+[CSTRNBIN1] WARNING: Constraints are not saved with a binary image
+  when dynamic constraint checking is disabled.
+TRUE
+CLIPS> (clear)
+CLIPS> (load*  "parser_id_mapping.clp")
+TRUE
+CLIPS> (bsave  "parser_id_mapping.bclp")
+TRUE
+CLIPS> (clear)
+CLIPS> (load*  "hindi_meaning.clp")
+TRUE
+CLIPS> (bsave  "hindi_meaning.bclp")
+TRUE
+CLIPS> (clear)
+CLIPS> (load*  "causative_verb_mng.clp")
+TRUE
+CLIPS> (bsave  "causative_verb_mng.bclp")
+TRUE
+CLIPS> (clear)
+CLIPS> (load*  "preferred_morph_consistency_check.clp")
+TRUE
+CLIPS> (bsave  "preferred_morph_consistency_check.bclp")
+[CSTRNBIN1] WARNING: Constraints are not saved with a binary image
+  when dynamic constraint checking is disabled.
+TRUE
+CLIPS> (clear)
+CLIPS> (load*  "tam_id.clp")
+TRUE
+CLIPS> (bsave  "tam_id.bclp")
+[CSTRNBIN1] WARNING: Constraints are not saved with a binary image
+  when dynamic constraint checking is disabled.
+TRUE
+CLIPS> (clear)
+CLIPS> (load*  "tam_meaning.clp")
+TRUE
+CLIPS> (bsave  "tam_meaning.bclp")
+[CSTRNBIN1] WARNING: Constraints are not saved with a binary image
+  when dynamic constraint checking is disabled.
+TRUE
+CLIPS> (clear)
+CLIPS> (load*  "gender_info.clp")
+TRUE
+CLIPS> (bsave  "gender_info.bclp")
+TRUE
+CLIPS> (clear)
+CLIPS> (load*  "vibakthi.clp")
+TRUE
+CLIPS> (bsave  "vibakthi.bclp")
+[CSTRNBIN1] WARNING: Constraints are not saved with a binary image
+  when dynamic constraint checking is disabled.
+TRUE
+CLIPS> (clear)
+CLIPS> (load*  "agreement.clp")
+TRUE
+CLIPS> (bsave  "agreement.bclp")
+[CSTRNBIN1] WARNING: Constraints are not saved with a binary image
+  when dynamic constraint checking is disabled.
+TRUE
+CLIPS> (clear)
+CLIPS> (load*  "number.clp")
+TRUE
+CLIPS> (bsave  "number.bclp")
+[CSTRNBIN1] WARNING: Constraints are not saved with a binary image
+  when dynamic constraint checking is disabled.
+TRUE
+CLIPS> (clear)
+CLIPS> (load*  "GNP_agreement.clp")
+TRUE
+CLIPS> (bsave  "GNP_agreement.bclp")
+[CSTRNBIN1] WARNING: Constraints are not saved with a binary image
+  when dynamic constraint checking is disabled.
+TRUE
+CLIPS> (clear)
+CLIPS> (load* "hindi_sent_reorder.clp")
+TRUE
+CLIPS> (bsave "hindi_sent_reorder.bclp")
+[CSTRNBIN1] WARNING: Constraints are not saved with a binary image
+  when dynamic constraint checking is disabled.
+TRUE
+CLIPS> (clear)
+CLIPS> (load*  "prepare_apertium_input.clp")
+TRUE
+CLIPS> (bsave  "prepare_apertium_input.bclp")
+[CSTRNBIN1] WARNING: Constraints are not saved with a binary image
+  when dynamic constraint checking is disabled.
+TRUE
+CLIPS> (clear) 
+CLIPS> (load*  "padasuthra.clp")
+TRUE
+CLIPS> (bsave  "padasuthra.bclp")
+TRUE
+CLIPS> (clear)
+CLIPS> (load*  "English_sentence.clp")
+TRUE
+CLIPS> (bsave  "English_sentence.bclp")
+[CSTRNBIN1] WARNING: Constraints are not saved with a binary image
+  when dynamic constraint checking is disabled.
+TRUE
+CLIPS> (clear)
+CLIPS> (load*  "hindi_sentence.clp")
+TRUE
+CLIPS> (bsave  "hindi_sentence.bclp")
+[CSTRNBIN1] WARNING: Constraints are not saved with a binary image
+  when dynamic constraint checking is disabled.
+TRUE
+CLIPS> (clear)
+CLIPS> ;======== Link Parser files ===============
+
+(load* "link_category.clp")
+TRUE
+CLIPS> (bsave "link_category.bclp")
+TRUE
+CLIPS> (clear)
+CLIPS> (load*  "combining_apostrophe.clp")
+TRUE
+CLIPS> (bsave  "combining_apostrophe.bclp")
+TRUE
+CLIPS> (clear)
+CLIPS> (load*  "verb_chunk.clp")
+TRUE
+CLIPS> (bsave  "verb_chunk.bclp")
+[CSTRNBIN1] WARNING: Constraints are not saved with a binary image
+  when dynamic constraint checking is disabled.
+TRUE
+CLIPS> (clear)
+CLIPS> (load*  "lwg_not.clp")
+TRUE
+CLIPS> (bsave  "lwg_not.bclp")
+TRUE
+CLIPS> (clear)
+CLIPS> (load*  "link_relation_rules.clp")
+TRUE
+CLIPS> (bsave  "link_relation_rules.bclp")
+TRUE
+CLIPS> (clear)
+CLIPS> (load*  "idiomatic_expressions.clp")
+TRUE
+CLIPS> (bsave  "idiomatic_expressions.bclp")
+TRUE
+CLIPS> (clear)
+CLIPS> (load*  "lwg_consistency_check.clp")
+TRUE
+CLIPS> (bsave  "lwg_consistency_check.bclp")
+TRUE
+CLIPS> (clear)
+CLIPS> (load*  "hindi_position.clp")
+TRUE
+CLIPS> (bsave  "hindi_position.bclp")
+[CSTRNBIN1] WARNING: Constraints are not saved with a binary image
+  when dynamic constraint checking is disabled.
+TRUE
+CLIPS> (clear)
+CLIPS> ;======== Open Logos Parser files ==============
+(load*  "ol_parser_id_mapping.clp")
+TRUE
+CLIPS> (bsave  "ol_parser_id_mapping.bclp")
+TRUE
+CLIPS> (clear)
+CLIPS> (load*  "modify_ol_relations.clp")
+TRUE
+CLIPS> (bsave  "modify_ol_relations.bclp")
+TRUE
+CLIPS> (clear)
+CLIPS> (load*  "modify_ol_cat.clp")
+TRUE
+CLIPS> (bsave  "modify_ol_cat.bclp")
+TRUE
+CLIPS> (clear)
+CLIPS> (load*  "ol_parserid_wordid_mapping.clp")
+TRUE
+CLIPS> (bsave  "ol_parserid_wordid_mapping.bclp")
+[CSTRNBIN1] WARNING: Constraints are not saved with a binary image
+  when dynamic constraint checking is disabled.
+TRUE
+CLIPS> (clear)
+CLIPS> (load*  "lwg_disambiguation.clp")
+TRUE
+CLIPS> (bsave  "lwg_disambiguation.bclp")
+TRUE
+CLIPS> (clear)
+CLIPS> ;========== Stanford Parser files =================
+(load*  "sd_relation_rules.clp")
+TRUE
+CLIPS> (bsave  "sd_relation_rules.bclp")
+TRUE
+CLIPS> (clear)
+CLIPS> (load*  "sd_combining_apostrophe.clp")
+TRUE
+CLIPS> (bsave  "sd_combining_apostrophe.bclp")
+TRUE
+CLIPS> (clear)
+CLIPS> (load*  "sd_category.clp")
+TRUE
+CLIPS> (bsave  "sd_category.bclp")
+TRUE
+CLIPS> (clear)
+CLIPS> (load*  "sd_lwg_rules.clp")
+TRUE
+CLIPS> (bsave  "sd_lwg_rules.bclp")
+TRUE
+CLIPS> (clear)
+CLIPS> (load*  "sd_pada.clp")
+TRUE
+CLIPS> (bsave  "sd_pada.bclp")
+[CSTRNBIN1] WARNING: Constraints are not saved with a binary image
+  when dynamic constraint checking is disabled.
+TRUE
+CLIPS> (clear)
+CLIPS> (load*  "H_ordering_rules.clp")
+TRUE
+CLIPS> (bsave  "H_ordering_rules.bclp")
+[CSTRNBIN1] WARNING: Constraints are not saved with a binary image
+  when dynamic constraint checking is disabled.
+TRUE
+CLIPS> (clear)
+CLIPS> (load*  "get_constituency_tree.clp")
+TRUE
+CLIPS> (bsave  "get_constituency_tree.bclp")
+TRUE
+CLIPS> (clear)
+CLIPS> (load*  "parser_tree_correction_rules.clp")
+TRUE
+CLIPS> (bsave  "parser_tree_correction_rules.bclp")
+[CSTRNBIN1] WARNING: Constraints are not saved with a binary image
+  when dynamic constraint checking is disabled.
+TRUE
+CLIPS> (clear)
+CLIPS> (load*  "parser_tree_modification_rules.clp")
+TRUE
+CLIPS> (bsave  "parser_tree_modification_rules.bclp")
+TRUE
+CLIPS> (clear)
+CLIPS> (load*  "hindi_compound_meaning.clp")
+TRUE
+CLIPS> (bsave "hindi_compound_meaning.bclp")
+TRUE
+CLIPS> (clear)
+CLIPS> (exit)

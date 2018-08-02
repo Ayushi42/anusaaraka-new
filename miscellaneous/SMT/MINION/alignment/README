@@ -1,0 +1,127 @@
+ 1. Prerequisites :
+    =============
+        1. English Sentence File.
+        2. Hindi Sentence File (WX Notation)
+	3. Shallow parser Installation
+	4. Full Parser Installation
+
+ 2. SHALLOW PARSER Installation :
+    ===========================
+	1. graphviz (from Synaptic package manager)	
+	2. tofrodos (		"		  ) 
+	3. Add following line to your ~/.bash_profile (or) ~/.bashrc
+ 		export SHALLOW_PARSER_HIN=~/sampark/shallow_parser_hin
+ 		export PATH=$PATH:$SHALLOW_PARSER_HIN/bin/sys/hin/
+	   and then run
+                source ~/.bashrc
+          
+         Note :: 
+	  If the following errors occurs while installation :
+	     1. error while loading shared libraries: libgdbm.so.2: cannot open shared object file: No such file or directory
+                	Follow these steps:
+		 	i) locate libgdbm
+		     		>> locate libgdbm
+                        		The output will be ....
+                     			>> /usr/lib/libgdbm.so
+                     			>> /usr/lib/libgdbm.so.3 
+                        		and so on ....
+                 	ii) Accordingly make a soft link to the existing one to libgdbm.so.2
+                       		For Eg:-
+                     		>> sudo ln -s /usr/lib/libgdbm.so /usr/lib/libgdbm.so.2
+	    2. 	dos2unix  command not found then 
+			Follow these steps
+			i) locate fromdos
+				>> locate fromdos
+					/usr/bin/fromdos
+					/usr/share/man/man1/fromdos.1.gz
+			ii) Accordingly make a soft link to the existing one to dos2unix
+				sudo ln -s /usr/bin/fromdos /usr/bin/dos2unix
+
+ 3. FULL PARSER Installation:
+    ========================
+	1. Add following line to your ~/.bash_profile (or) ~/.bashrc
+		export setu=$HOME/sampark
+	2. and then run
+                source ~/.bashrc
+
+
+ 4.  MINION Compilation : 
+     ==================
+	 For our work we are using the (already) compiled version of minion. 
+
+ 5. compile :
+    ========
+        1. cd $HOME_anu_test
+           shell_scripts/remove_out-files.sh
+           shell_scripts/anu_compile.sh
+        2. cd $HOME_anu_test/miscellaneous/SMT/MINION/alignment
+           sh minion_compile.sh
+
+ 6. To run alignment :
+    =================
+	(Note : sample files are in $HOME_anu_test/miscellaneous/SMT/MINION/alignment/align_output)
+
+        Anusaaraka_stanford_minion.sh <file-name> <parse_no> <sand_box_option> <domain_name> < manual_hin_sen> 
+        Ex  :   Anusaaraka_stanford_minion.sh phy_align_verified_eng 0 false general phy_align_verified_hnd 
+        (Note : 0       :  default parse
+                false   :  not to use provisional directory.
+                general :  no domain
+        )
+
+   Domain specific :
+   ================
+        To run Anusaaraka for physics domain then
+
+        Ex  :Anusaaraka_stanford_minion.sh phy_align_verified_eng 0 True physics phy_align_verified_hnd
+
+        (Note : 0       :  default parse
+                True    :  to use provisional directory.
+                physics :  physics domain
+        )
+
+   Full parser:
+   ===========
+      To run Anusaaraka for physics domain with full parser then
+
+	Ex  : Anusaaraka_stanford_minion.sh phy_align_verified_eng 0 True physics phy_align_verified_hnd  full
+	(Note : 0       :  default parse
+                True    :  to use provisional directory.
+                physics :  physics domain
+		full	:  To use full parser
+	        )
+
+ 7. Dictionaries :  Dictionaries used for alignment are in $HOME_anu_test/miscellaneous/SMT/MINION/dictionaries directory
+    ============
+
+ 8. OUTPUT:
+    ======
+
+   File to check for meanings aligned with ANU
+   =========================================== :
+		$HOME_anu_tmp/tmp/$1_tmp/meanings_aligned_with_anu_tmp.txt
+   	   Ex:	$HOME_anu_tmp/tmp/phy_align_verified_eng_tmp/meanings_aligned_with_anu_tmp.txt
+
+   File to check for meanings aligned with Dictionary
+   ================================================== :
+                $HOME_anu_tmp/tmp/$1_tmp/meanings_aligned_with_dic_tmp.txt
+           Ex:  $HOME_anu_tmp/tmp/phy_align_verified_eng_tmp/meanings_aligned_with_dic_tmp.txt
+
+   File to check for meanings aligned with Minion
+   ============================================== :
+                $HOME_anu_tmp/tmp/$1_tmp/meanings_aligned_with_minion_tmp.txt
+           Ex:  $HOME_anu_tmp/tmp/phy_align_verified_eng_tmp/meanings_aligned_with_minion_tmp.txt
+
+   To see all the three files (ANU,Dictionary and Minion) mentioned above at once in sorted order
+   ============================================================================================== :
+		$HOME_anu_tmp/tmp/$1_tmp/anu_and_manual_meanings.txt
+	   Ex:  $HOME_anu_tmp/tmp/phy_align_verified_eng_tmp/anu_and_manual_meanings.txt
+
+   File to check for word alignment is :
+   ====================================
+                         $HOME_anu_tmp/tmp/$1_tmp/$2/word_alignment.dat
+                Ex:      $HOME_anu_tmp/tmp/phy_verified_tmp/2.1/word_alignment.dat
+
+   To view the firefox for alignment :
+   =================================
+                        firefox $HOME_anu_output/[file_name]_align.html
+                Ex:     firefox $HOME_anu_output/phy_verified_align.html

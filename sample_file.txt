@@ -1,0 +1,3 @@
+AyojanAoM:AyojanA<cat:n><case:o><gen:f><num:p>
+pariyojanAoM:>:pariyojanA<cat:n><case:o><gen:f><num:p>
+yojanAoM:yojanA<cat:n><case:o><gen:f><num:p>

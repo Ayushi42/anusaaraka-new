@@ -1,0 +1,47 @@
+ Pre requisites ::
+ ==============
+   anusaaraka software need to be installed successfully.
+
+   Note: This version handles only one sentence at a time.
+	 A sample input file named "test" is provided with this package. 
+ -----------------------------------------------------------------------------
+ To view Derived Tree, Derivation Tree & Dependecy Tree ::
+ ======================================================
+
+ Run view_trees.sh:
+         bash view_trees.sh <input-file>
+           Ex:  bash view_trees.sh test
+  
+  Two windows would open
+         i)  Constituency Tree Viewer ---> For viewing derived tree and derivation tree. 
+         ii) Dependency Tree Viewer   ---> For viewing dependency tree.
+ 
+         Steps to view trees:
+ 	  Go to File menu -> select Open Treebank
+ 	  (A new window opens)  --> 
+	 		   	   a.  select <input-file>_derived_tree file in home directory and Click Open
+                                         Ex: test_derived_tree 
+                                   b.  select <input-file>_derivation_tree file in home directory and Click Open
+                                         Ex: test_derivation_tree
+		                   c.  select <input-file>_dependency_tree in home directory and Click Open
+                                         Ex: test_dependency_tree 
+
+  Note: To remove out files, run: bash remove-out-files.sh
+        All the trees are created in $HOME directory.
+-------------------------------------------------------------------------------------------------------------------
+To view Dependency Tree in paninian format::
+=========================================
+Pre requisites:
+--------------
+1. anusaaraka software need to be installed successfully 
+2. Run Anusaaraka_stanford.sh <file-name>
+	Ex: Anusaaraka_stanford.sh sample
+3. bash dependency_in_paninian_format.sh <file-name> <sentence-number>
+	Ex: dependency_in_paninian_format.sh sample 2.1
+
+   Dependency Tree Viewer opens
+	 Steps to view trees:
+          Go to File menu -> select Open Treebank
+          (A new window opens)  --> select the path upto working directory and then
+					-> select paninian_to_conllx_format.dat and Click Open
+-------------------------------------------------------------------------------------------------------------------

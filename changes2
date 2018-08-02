@@ -1,0 +1,11 @@
+1. get_verb_and_phrasal_grp.clp	
+	Modified : check_prev_word_for_kara_or_ho_or_xe_using_dic  -- added or condition
+	Added  : default_verb_grp
+2. get_heuristics.clp : Modified : kriyA_mUla_partial_match -- added 'le' to the list
+3. alignment1.clp : Modified : rm_unrelated_wrds_from_hnd_restrict, rm_unrelated_wrds_from_eng_restrict -- added not condition for wsd multi
+4. get_dbase_mng.clp : Modified : get_mng_from_all_dic_with_diff_cat -- added word fact 
+5. Updated the following files
+	changes_in_databases
+	default-iit-bombay-shabdanjali-dic.txt
+6. Updated Log	
+

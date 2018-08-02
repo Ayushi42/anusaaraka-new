@@ -1,0 +1,16 @@
+1. Updated the following shell files for hindi parser (nsdp)
+	Anusaaraka_alignment.sh
+	get_conll_info.sh
+2. Added new file dep_parserid_wordid_mapping.clp -- parserid mapping
+3. get_hnd_relations.py -- Modified to get Pids instead ids (1 2 3 ==> P1 P2 P3)
+4. grp_multi_prep.clp -- Added : grp_case1 rule
+5. run_H_gen_sen_eng.bat
+	Added dep_parserid_wordid_mapping Module
+	Loaded hindi_parser_rel_ids and eng_parser_rel_ids files in get_hnd_std_parser_heuristics module
+	Loaded hindi_id_order file in parser_alignment module
+	Loaded punctuation_info and multi_word_expressions files in alignment module
+	Loded same_wt_info, revised_root and paren_grp_info files in alignment1 module
+6. get_hnd_std_parser_heuristics.clp
+	Added : align_nmod_with_dic_mng and align_nmod_child_dic_mng rules
+7. parser_alignment.clp
+	Modified the file to get parser unaligned words info in html
